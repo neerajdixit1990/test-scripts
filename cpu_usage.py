@@ -21,7 +21,7 @@ def log_statistics():
 	'''
 	#hdlr = logging.FileHandler('/var/log/cpu.log')
 	#cpu.addHandler(hdlr)
-	bench.info('CPU usage = %s', psutil.cpu_percent(percpu=True))
+	bench.info('CPU usage = %s', psutil.cpu_percent(percpu=False))
 	bench.info('CPU stats = %s', str(psutil.cpu_stats()))
 
 	
