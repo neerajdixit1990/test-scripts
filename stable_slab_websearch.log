@@ -942,3 +942,114 @@
 2016-10-13 13:25:35,926 all          INFO     CPU stats = scpustats(ctx_switches=95099665, interrupts=58412788, soft_interrupts=56647517, syscalls=0)
 2016-10-13 13:25:35,927 all          INFO     Virtual memory = svmem(total=16784601088, available=12423385088, percent=26.0, used=15358734336, free=1425866752, active=8357793792, inactive=6310772736, buffers=158556160, cached=10838962176, shared=17780736)
 2016-10-13 13:25:35,927 all          INFO     Swap memory = sswap(total=17137922048, used=909312, free=17137012736, percent=0.0, sin=1392640, sout=5136384)
+
+
+
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+Print= 172.18.0.3:1
+Oct 13, 2016 5:21:48 PM com.sun.faban.common.RegistryImpl main
+INFO: Registry started.
+Oct 13, 2016 5:21:51 PM com.sun.faban.common.RegistryImpl reregister
+INFO: Registering Master on 172.18.0.3
+Oct 13, 2016 5:21:51 PM com.sun.faban.common.RegistryImpl reregister
+INFO: Registering SearchDriver.1 (type: SearchDriverAgent) on 172.18.0.3
+Oct 13, 2016 5:21:51 PM com.sun.faban.driver.engine.MasterImpl runBenchmark
+INFO: RunID for this run is : 1
+Oct 13, 2016 5:21:51 PM com.sun.faban.driver.engine.MasterImpl runBenchmark
+INFO: Output directory for this run is : /usr/src/outputFaban/1
+Oct 13, 2016 5:21:51 PM com.sun.faban.common.RegistryImpl getServices
+INFO: Get services by type: SearchDriverAgent
+Oct 13, 2016 5:21:51 PM com.sun.faban.driver.engine.MasterImpl configureAgents
+INFO: Configuring 1 SearchDriverAgents...
+Oct 13, 2016 5:21:51 PM com.sun.faban.driver.util.Timer idleTimerCheck
+INFO: SearchDriverAgent[1]: Performing idle timer check
+Oct 13, 2016 5:21:51 PM com.sun.faban.driver.util.Timer idleTimerCheck
+INFO: SearchDriverAgent[1]: Idle timer characteristics:
+Accuracy=3,
+min. invocation cost=13,
+med. invocation cost (math)=17.0,
+med. invocation cost (phys)=17,
+avg. invocation cost=18.6896,
+max. invocation cost=294,
+variance of invocation cost=55.150251840000564.
+Oct 13, 2016 5:21:54 PM com.sun.faban.driver.engine.AgentImpl run
+INFO: SearchDriverAgent[1]: Successfully started 50 driver threads.
+Oct 13, 2016 5:21:55 PM com.sun.faban.driver.engine.MasterImpl executeRun
+INFO: Started all threads; run commences in 2998 ms
+Oct 13, 2016 5:22:43 PM com.sun.faban.driver.util.Timer$BusyTimerMeter run
+INFO: SearchDriverAgent[1]: Performing busy timer check
+Oct 13, 2016 5:22:43 PM com.sun.faban.driver.util.Timer$BusyTimerMeter run
+INFO: SearchDriverAgent[1]: Busy timer characteristics:
+Accuracy=3,
+min. invocation cost=12,
+med. invocation cost (math)=18.0,
+med. invocation cost (phys)=18,
+avg. invocation cost=19.437,
+max. invocation cost=67,
+variance of invocation cost=14.789631000000014.
+Oct 13, 2016 5:23:28 PM com.sun.faban.driver.util.Timer$SleepCalibrator run
+INFO: SearchDriverAgent[1]: Calibration succeeded. Sleep time deviation: 0.13811116464733883 ms, compensation: 1 ms.
+Oct 13, 2016 5:23:28 PM com.sun.faban.driver.engine.MasterImpl executeRun
+INFO: Ramp up completed
+Oct 13, 2016 5:24:28 PM com.sun.faban.driver.engine.MasterImpl executeRun
+INFO: Steady state completed
+Oct 13, 2016 5:25:28 PM com.sun.faban.driver.engine.MasterImpl executeRun
+INFO: Ramp down completed
+Oct 13, 2016 5:25:28 PM com.sun.faban.driver.engine.MasterImpl getDriverMetrics
+INFO: Gathering SearchDriverStats ...
+Oct 13, 2016 5:25:28 PM com.sun.faban.driver.engine.MasterImpl generateReports
+INFO: Printing Summary report ...
+Oct 13, 2016 5:25:28 PM com.sun.faban.driver.engine.MasterImpl generateReports
+INFO: Summary finished. Now printing detail ...
+Oct 13, 2016 5:25:28 PM com.sun.faban.driver.engine.MasterImpl generateReports
+INFO: Detail finished. Results written to /usr/src/outputFaban/1.
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/summary_report.xsl"?>
+<benchResults>
+    <benchSummary name="Sample Search Workload" version="0.3">
+        <runId>1</runId>
+        <startTime>Thu Oct 13 17:21:58 UTC 2016</startTime>
+        <endTime>Thu Oct 13 17:25:28 UTC 2016</endTime>
+        <metric unit="ops/sec">25.450</metric>
+        <passed>true</passed>
+    </benchSummary>
+    <driverSummary name="SearchDriver">
+        <metric unit="ops/sec">25.450</metric>
+        <startTime>Thu Oct 13 17:21:58 UTC 2016</startTime>
+        <endTime>Thu Oct 13 17:25:28 UTC 2016</endTime>
+        <totalOps unit="operations">1527</totalOps>
+        <users>50</users>
+        <rtXtps>47.2296</rtXtps>
+        <passed>true</passed>
+        <mix allowedDeviation="0.0000">
+            <operation name="GET">
+                <successes>1527</successes>
+                <failures>0</failures>
+                <mix>1.0000</mix>
+                <requiredMix>1.0000</requiredMix>
+                <passed>true</passed>
+            </operation>
+        </mix>
+        <responseTimes unit="seconds">
+            <operation name="GET" r90th="0.500">
+                <avg>0.022</avg>
+                <max>0.149</max>
+                <sd>0.020</sd>
+                <p90th>0.048</p90th>
+                <passed>true</passed>
+                <p99th>0.095</p99th>
+            </operation>
+        </responseTimes>
+        <delayTimes>
+            <operation name="GET" type="cycleTime">
+                <targetedAvg>1.918</targetedAvg>
+                <actualAvg>1.917</actualAvg>
+                <min>0.005</min>
+                <max>10.000</max>
+                <passed>true</passed>
+            </operation>
+        </delayTimes>
+    </driverSummary>
+</benchResults>
