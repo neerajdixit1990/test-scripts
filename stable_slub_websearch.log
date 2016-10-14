@@ -1,0 +1,880 @@
+2016-10-14 02:50:48,966 all          INFO     CPU usage = 85.7
+2016-10-14 02:50:48,967 all          INFO     CPU stats = scpustats(ctx_switches=19903211, interrupts=9322997, soft_interrupts=7512373, syscalls=0)
+2016-10-14 02:50:48,967 all          INFO     Virtual memory = svmem(total=16783757312, available=12186406912, percent=27.4, used=16441298944, free=342458368, active=8549101568, inactive=7238926336, buffers=109051904, cached=11734896640, shared=9449472)
+2016-10-14 02:50:48,967 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:49,969 all          INFO     CPU usage = 97.9
+2016-10-14 02:50:49,969 all          INFO     CPU stats = scpustats(ctx_switches=19909599, interrupts=9326915, soft_interrupts=7516094, syscalls=0)
+2016-10-14 02:50:49,969 all          INFO     Virtual memory = svmem(total=16783757312, available=12181209088, percent=27.4, used=16449052672, free=334704640, active=8555298816, inactive=7240589312, buffers=109051904, cached=11737452544, shared=9449472)
+2016-10-14 02:50:49,969 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:50,970 all          INFO     CPU usage = 33.6
+2016-10-14 02:50:50,971 all          INFO     CPU stats = scpustats(ctx_switches=19916754, interrupts=9330276, soft_interrupts=7518342, syscalls=0)
+2016-10-14 02:50:50,971 all          INFO     Virtual memory = svmem(total=16783757312, available=12180549632, percent=27.4, used=16455430144, free=328327168, active=8557076480, inactive=7244800000, buffers=109051904, cached=11743170560, shared=9449472)
+2016-10-14 02:50:50,971 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:51,972 all          INFO     CPU usage = 3.0
+2016-10-14 02:50:51,972 all          INFO     CPU stats = scpustats(ctx_switches=19921032, interrupts=9332220, soft_interrupts=7519077, syscalls=0)
+2016-10-14 02:50:51,972 all          INFO     Virtual memory = svmem(total=16783757312, available=12180574208, percent=27.4, used=16456855552, free=326901760, active=8557809664, inactive=7246434304, buffers=109051904, cached=11744620544, shared=9449472)
+2016-10-14 02:50:51,973 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:52,974 all          INFO     CPU usage = 10.0
+2016-10-14 02:50:52,974 all          INFO     CPU stats = scpustats(ctx_switches=19927010, interrupts=9334982, soft_interrupts=7520423, syscalls=0)
+2016-10-14 02:50:52,974 all          INFO     Virtual memory = svmem(total=16783757312, available=12180164608, percent=27.4, used=16460824576, free=322932736, active=8558555136, inactive=7249190912, buffers=109051904, cached=11748179968, shared=9449472)
+2016-10-14 02:50:52,974 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:53,975 all          INFO     CPU usage = 7.5
+2016-10-14 02:50:53,975 all          INFO     CPU stats = scpustats(ctx_switches=19932547, interrupts=9337510, soft_interrupts=7521432, syscalls=0)
+2016-10-14 02:50:53,976 all          INFO     Virtual memory = svmem(total=16783757312, available=12180021248, percent=27.4, used=16463491072, free=320266240, active=8558661632, inactive=7251554304, buffers=109051904, cached=11750703104, shared=9449472)
+2016-10-14 02:50:53,976 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:54,977 all          INFO     CPU usage = 9.0
+2016-10-14 02:50:54,977 all          INFO     CPU stats = scpustats(ctx_switches=19937483, interrupts=9339724, soft_interrupts=7522576, syscalls=0)
+2016-10-14 02:50:54,977 all          INFO     Virtual memory = svmem(total=16783757312, available=12180070400, percent=27.4, used=16469331968, free=314425344, active=8559128576, inactive=7256850432, buffers=109051904, cached=11756593152, shared=9449472)
+2016-10-14 02:50:54,977 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:55,979 all          INFO     CPU usage = 9.2
+2016-10-14 02:50:55,979 all          INFO     CPU stats = scpustats(ctx_switches=19942804, interrupts=9342146, soft_interrupts=7523638, syscalls=0)
+2016-10-14 02:50:55,979 all          INFO     Virtual memory = svmem(total=16783757312, available=12180275200, percent=27.4, used=16470425600, free=313331712, active=8559497216, inactive=7257710592, buffers=109064192, cached=11757879296, shared=9449472)
+2016-10-14 02:50:55,979 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:56,980 all          INFO     CPU usage = 7.9
+2016-10-14 02:50:56,980 all          INFO     CPU stats = scpustats(ctx_switches=19947264, interrupts=9344200, soft_interrupts=7524431, syscalls=0)
+2016-10-14 02:50:56,981 all          INFO     Virtual memory = svmem(total=16783757312, available=12180373504, percent=27.4, used=16472965120, free=310792192, active=8560132096, inactive=7259795456, buffers=109064192, cached=11760517120, shared=9449472)
+2016-10-14 02:50:56,981 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:57,981 all          INFO     CPU usage = 3.6
+2016-10-14 02:50:57,981 all          INFO     CPU stats = scpustats(ctx_switches=19951070, interrupts=9345952, soft_interrupts=7525140, syscalls=0)
+2016-10-14 02:50:57,981 all          INFO     Virtual memory = svmem(total=16783757312, available=12180373504, percent=27.4, used=16473853952, free=309903360, active=8560353280, inactive=7260082176, buffers=109064192, cached=11761405952, shared=9449472)
+2016-10-14 02:50:57,981 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:58,983 all          INFO     CPU usage = 6.4
+2016-10-14 02:50:58,983 all          INFO     CPU stats = scpustats(ctx_switches=19954987, interrupts=9347784, soft_interrupts=7525879, syscalls=0)
+2016-10-14 02:50:58,984 all          INFO     Virtual memory = svmem(total=16783757312, available=12180389888, percent=27.4, used=16476520448, free=307236864, active=8560660480, inactive=7262728192, buffers=109064192, cached=11764088832, shared=9449472)
+2016-10-14 02:50:58,984 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:50:59,986 all          INFO     CPU usage = 9.9
+2016-10-14 02:50:59,986 all          INFO     CPU stats = scpustats(ctx_switches=19959832, interrupts=9349944, soft_interrupts=7526855, syscalls=0)
+2016-10-14 02:50:59,986 all          INFO     Virtual memory = svmem(total=16783757312, available=12181016576, percent=27.4, used=16477974528, free=305782784, active=8561360896, inactive=7264518144, buffers=109080576, cached=11766153216, shared=9449472)
+2016-10-14 02:50:59,986 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:00,987 all          INFO     CPU usage = 11.2
+2016-10-14 02:51:00,988 all          INFO     CPU stats = scpustats(ctx_switches=19968841, interrupts=9352844, soft_interrupts=7528160, syscalls=0)
+2016-10-14 02:51:00,988 all          INFO     Virtual memory = svmem(total=16783757312, available=12182007808, percent=27.4, used=16494653440, free=289103872, active=8566587392, inactive=7276531712, buffers=109088768, cached=11783815168, shared=9449472)
+2016-10-14 02:51:00,988 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:01,989 all          INFO     CPU usage = 8.9
+2016-10-14 02:51:01,989 all          INFO     CPU stats = scpustats(ctx_switches=19974639, interrupts=9355529, soft_interrupts=7529484, syscalls=0)
+2016-10-14 02:51:01,989 all          INFO     Virtual memory = svmem(total=16783757312, available=12182065152, percent=27.4, used=16495390720, free=288366592, active=8566587392, inactive=7276797952, buffers=109092864, cached=11784605696, shared=9449472)
+2016-10-14 02:51:01,990 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:02,991 all          INFO     CPU usage = 5.1
+2016-10-14 02:51:02,991 all          INFO     CPU stats = scpustats(ctx_switches=19980034, interrupts=9358015, soft_interrupts=7530545, syscalls=0)
+2016-10-14 02:51:02,991 all          INFO     Virtual memory = svmem(total=16783757312, available=12182179840, percent=27.4, used=16497229824, free=286527488, active=8567050240, inactive=7278768128, buffers=109092864, cached=11786559488, shared=9449472)
+2016-10-14 02:51:02,991 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:03,992 all          INFO     CPU usage = 11.2
+2016-10-14 02:51:03,993 all          INFO     CPU stats = scpustats(ctx_switches=19985848, interrupts=9360752, soft_interrupts=7532017, syscalls=0)
+2016-10-14 02:51:03,993 all          INFO     Virtual memory = svmem(total=16783757312, available=12181987328, percent=27.4, used=16501293056, free=282464256, active=8567656448, inactive=7281401856, buffers=109092864, cached=11790430208, shared=9449472)
+2016-10-14 02:51:03,993 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:04,994 all          INFO     CPU usage = 8.2
+2016-10-14 02:51:04,994 all          INFO     CPU stats = scpustats(ctx_switches=19991742, interrupts=9363491, soft_interrupts=7533287, syscalls=0)
+2016-10-14 02:51:04,994 all          INFO     Virtual memory = svmem(total=16783757312, available=12182343680, percent=27.4, used=16504594432, free=279162880, active=8568430592, inactive=7284736000, buffers=109092864, cached=11794087936, shared=9449472)
+2016-10-14 02:51:04,995 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:05,996 all          INFO     CPU usage = 7.9
+2016-10-14 02:51:05,996 all          INFO     CPU stats = scpustats(ctx_switches=19997235, interrupts=9366060, soft_interrupts=7534423, syscalls=0)
+2016-10-14 02:51:05,996 all          INFO     Virtual memory = svmem(total=16783757312, available=12182511616, percent=27.4, used=16506851328, free=276905984, active=8568287232, inactive=7285219328, buffers=109092864, cached=11796512768, shared=9449472)
+2016-10-14 02:51:05,996 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:06,997 all          INFO     CPU usage = 6.6
+2016-10-14 02:51:06,998 all          INFO     CPU stats = scpustats(ctx_switches=20002274, interrupts=9368427, soft_interrupts=7535559, syscalls=0)
+2016-10-14 02:51:06,998 all          INFO     Virtual memory = svmem(total=16783757312, available=12182622208, percent=27.4, used=16508755968, free=275001344, active=8568655872, inactive=7286800384, buffers=109092864, cached=11798528000, shared=9449472)
+2016-10-14 02:51:06,998 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:07,999 all          INFO     CPU usage = 13.1
+2016-10-14 02:51:07,999 all          INFO     CPU stats = scpustats(ctx_switches=20006962, interrupts=9370480, soft_interrupts=7536668, syscalls=0)
+2016-10-14 02:51:08,000 all          INFO     Virtual memory = svmem(total=16783757312, available=12101541888, percent=27.9, used=16593068032, free=190689280, active=8653139968, inactive=7289094144, buffers=109096960, cached=11801755648, shared=9449472)
+2016-10-14 02:51:08,000 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:09,001 all          INFO     CPU usage = 5.3
+2016-10-14 02:51:09,001 all          INFO     CPU stats = scpustats(ctx_switches=20012120, interrupts=9372773, soft_interrupts=7537614, syscalls=0)
+2016-10-14 02:51:09,001 all          INFO     Virtual memory = svmem(total=16783757312, available=12101562368, percent=27.9, used=16597131264, free=186626048, active=8654184448, inactive=7292121088, buffers=109096960, cached=11805839360, shared=9449472)
+2016-10-14 02:51:09,001 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:10,003 all          INFO     CPU usage = 9.0
+2016-10-14 02:51:10,003 all          INFO     CPU stats = scpustats(ctx_switches=20018585, interrupts=9375743, soft_interrupts=7539029, syscalls=0)
+2016-10-14 02:51:10,003 all          INFO     Virtual memory = svmem(total=16783757312, available=12102901760, percent=27.9, used=16599670784, free=184086528, active=8652967936, inactive=7295176704, buffers=109096960, cached=11809718272, shared=9449472)
+2016-10-14 02:51:10,003 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:11,004 all          INFO     CPU usage = 6.4
+2016-10-14 02:51:11,005 all          INFO     CPU stats = scpustats(ctx_switches=20024211, interrupts=9378373, soft_interrupts=7540116, syscalls=0)
+2016-10-14 02:51:11,005 all          INFO     Virtual memory = svmem(total=16783757312, available=12103548928, percent=27.9, used=16601653248, free=182104064, active=8654090240, inactive=7296569344, buffers=109096960, cached=11812347904, shared=9449472)
+2016-10-14 02:51:11,005 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:12,006 all          INFO     CPU usage = 6.6
+2016-10-14 02:51:12,006 all          INFO     CPU stats = scpustats(ctx_switches=20029006, interrupts=9380504, soft_interrupts=7541303, syscalls=0)
+2016-10-14 02:51:12,006 all          INFO     Virtual memory = svmem(total=16783757312, available=12103356416, percent=27.9, used=16604954624, free=178802688, active=8655138816, inactive=7298695168, buffers=109096960, cached=11815456768, shared=9449472)
+2016-10-14 02:51:12,006 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:13,008 all          INFO     CPU usage = 5.8
+2016-10-14 02:51:13,008 all          INFO     CPU stats = scpustats(ctx_switches=20032735, interrupts=9382255, soft_interrupts=7542267, syscalls=0)
+2016-10-14 02:51:13,008 all          INFO     Virtual memory = svmem(total=16783757312, available=12103372800, percent=27.9, used=16606097408, free=177659904, active=8655425536, inactive=7299670016, buffers=109101056, cached=11816611840, shared=9449472)
+2016-10-14 02:51:13,008 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:14,010 all          INFO     CPU usage = 10.2
+2016-10-14 02:51:14,010 all          INFO     CPU stats = scpustats(ctx_switches=20038686, interrupts=9384986, soft_interrupts=7543691, syscalls=0)
+2016-10-14 02:51:14,010 all          INFO     Virtual memory = svmem(total=16783757312, available=12103434240, percent=27.9, used=16607875072, free=175882240, active=8655618048, inactive=7301197824, buffers=109101056, cached=11818450944, shared=9449472)
+2016-10-14 02:51:14,010 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:15,011 all          INFO     CPU usage = 5.6
+2016-10-14 02:51:15,012 all          INFO     CPU stats = scpustats(ctx_switches=20043566, interrupts=9387240, soft_interrupts=7544626, syscalls=0)
+2016-10-14 02:51:15,012 all          INFO     Virtual memory = svmem(total=16783757312, available=12103483392, percent=27.9, used=16609652736, free=174104576, active=8656220160, inactive=7302488064, buffers=109101056, cached=11820277760, shared=9449472)
+2016-10-14 02:51:15,012 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:16,013 all          INFO     CPU usage = 6.2
+2016-10-14 02:51:16,013 all          INFO     CPU stats = scpustats(ctx_switches=20048291, interrupts=9389385, soft_interrupts=7545676, syscalls=0)
+2016-10-14 02:51:16,013 all          INFO     Virtual memory = svmem(total=16783757312, available=12102545408, percent=27.9, used=16612659200, free=171098112, active=8660131840, inactive=7298482176, buffers=109101056, cached=11822346240, shared=9449472)
+2016-10-14 02:51:16,013 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:17,013 all          INFO     CPU usage = 9.5
+2016-10-14 02:51:17,014 all          INFO     CPU stats = scpustats(ctx_switches=20054602, interrupts=9392274, soft_interrupts=7547128, syscalls=0)
+2016-10-14 02:51:17,014 all          INFO     Virtual memory = svmem(total=16783757312, available=12102746112, percent=27.9, used=16616247296, free=167510016, active=8662880256, inactive=7301578752, buffers=109101056, cached=11826135040, shared=9449472)
+2016-10-14 02:51:17,014 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:18,015 all          INFO     CPU usage = 14.4
+2016-10-14 02:51:18,015 all          INFO     CPU stats = scpustats(ctx_switches=20061170, interrupts=9395378, soft_interrupts=7548574, syscalls=0)
+2016-10-14 02:51:18,015 all          INFO     Virtual memory = svmem(total=16783757312, available=12103241728, percent=27.9, used=16619352064, free=164405248, active=8663859200, inactive=7304220672, buffers=109105152, cached=11829731328, shared=9449472)
+2016-10-14 02:51:18,016 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:19,017 all          INFO     CPU usage = 16.4
+2016-10-14 02:51:19,017 all          INFO     CPU stats = scpustats(ctx_switches=20067685, interrupts=9398366, soft_interrupts=7549874, syscalls=0)
+2016-10-14 02:51:19,017 all          INFO     Virtual memory = svmem(total=16783757312, available=12103135232, percent=27.9, used=16624939008, free=158818304, active=8664485888, inactive=7309242368, buffers=109105152, cached=11835211776, shared=9449472)
+2016-10-14 02:51:19,017 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:20,018 all          INFO     CPU usage = 8.1
+2016-10-14 02:51:20,019 all          INFO     CPU stats = scpustats(ctx_switches=20073305, interrupts=9400961, soft_interrupts=7551159, syscalls=0)
+2016-10-14 02:51:20,019 all          INFO     Virtual memory = svmem(total=16783757312, available=12103262208, percent=27.9, used=16628494336, free=155262976, active=8665133056, inactive=7312207872, buffers=109105152, cached=11838894080, shared=9449472)
+2016-10-14 02:51:20,019 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:21,020 all          INFO     CPU usage = 10.6
+2016-10-14 02:51:21,020 all          INFO     CPU stats = scpustats(ctx_switches=20080508, interrupts=9404272, soft_interrupts=7552718, syscalls=0)
+2016-10-14 02:51:21,020 all          INFO     Virtual memory = svmem(total=16783757312, available=12102451200, percent=27.9, used=16612827136, free=170930176, active=8659005440, inactive=7301771264, buffers=109105152, cached=11822415872, shared=9449472)
+2016-10-14 02:51:21,020 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:22,022 all          INFO     CPU usage = 9.9
+2016-10-14 02:51:22,022 all          INFO     CPU stats = scpustats(ctx_switches=20086139, interrupts=9406842, soft_interrupts=7553932, syscalls=0)
+2016-10-14 02:51:22,022 all          INFO     Virtual memory = svmem(total=16783757312, available=12102807552, percent=27.9, used=16618287104, free=165470208, active=8659550208, inactive=7306825728, buffers=109105152, cached=11828232192, shared=9449472)
+2016-10-14 02:51:22,022 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:23,023 all          INFO     CPU usage = 5.3
+2016-10-14 02:51:23,024 all          INFO     CPU stats = scpustats(ctx_switches=20090406, interrupts=9408787, soft_interrupts=7554921, syscalls=0)
+2016-10-14 02:51:23,024 all          INFO     Virtual memory = svmem(total=16783757312, available=12103057408, percent=27.9, used=16621207552, free=162549760, active=8659955712, inactive=7309381632, buffers=109105152, cached=11831402496, shared=9449472)
+2016-10-14 02:51:23,024 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:24,025 all          INFO     CPU usage = 6.7
+2016-10-14 02:51:24,025 all          INFO     CPU stats = scpustats(ctx_switches=20096236, interrupts=9411667, soft_interrupts=7556249, syscalls=0)
+2016-10-14 02:51:24,025 all          INFO     Virtual memory = svmem(total=16783757312, available=12103012352, percent=27.9, used=16624635904, free=159121408, active=8660262912, inactive=7312752640, buffers=109105152, cached=11834785792, shared=9449472)
+2016-10-14 02:51:24,025 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:25,027 all          INFO     CPU usage = 6.0
+2016-10-14 02:51:25,027 all          INFO     CPU stats = scpustats(ctx_switches=20101779, interrupts=9414217, soft_interrupts=7557469, syscalls=0)
+2016-10-14 02:51:25,027 all          INFO     Virtual memory = svmem(total=16783757312, available=12103143424, percent=27.9, used=16627683328, free=156073984, active=8661098496, inactive=7315243008, buffers=109105152, cached=11837964288, shared=9449472)
+2016-10-14 02:51:25,027 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:26,028 all          INFO     CPU usage = 11.3
+2016-10-14 02:51:26,028 all          INFO     CPU stats = scpustats(ctx_switches=20106744, interrupts=9417258, soft_interrupts=7558620, syscalls=0)
+2016-10-14 02:51:26,029 all          INFO     Virtual memory = svmem(total=16783757312, available=12107726848, percent=27.9, used=16610144256, free=173613056, active=8656175104, inactive=7307182080, buffers=109113344, cached=11825000448, shared=9449472)
+2016-10-14 02:51:26,029 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:27,030 all          INFO     CPU usage = 7.9
+2016-10-14 02:51:27,030 all          INFO     CPU stats = scpustats(ctx_switches=20111319, interrupts=9419327, soft_interrupts=7559616, syscalls=0)
+2016-10-14 02:51:27,030 all          INFO     Virtual memory = svmem(total=16783757312, available=12107407360, percent=27.9, used=16611287040, free=172470272, active=8656388096, inactive=7307776000, buffers=109117440, cached=11825819648, shared=9449472)
+2016-10-14 02:51:27,030 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:28,032 all          INFO     CPU usage = 6.8
+2016-10-14 02:51:28,032 all          INFO     CPU stats = scpustats(ctx_switches=20117469, interrupts=9422169, soft_interrupts=7560851, syscalls=0)
+2016-10-14 02:51:28,032 all          INFO     Virtual memory = svmem(total=16783757312, available=12107595776, percent=27.9, used=16613445632, free=170311680, active=8656568320, inactive=7309271040, buffers=109117440, cached=11828166656, shared=9449472)
+2016-10-14 02:51:28,032 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:29,033 all          INFO     CPU usage = 10.5
+2016-10-14 02:51:29,033 all          INFO     CPU stats = scpustats(ctx_switches=20122320, interrupts=9424377, soft_interrupts=7562137, syscalls=0)
+2016-10-14 02:51:29,033 all          INFO     Virtual memory = svmem(total=16783757312, available=12107202560, percent=27.9, used=16617984000, free=165773312, active=8657305600, inactive=7312027648, buffers=109117440, cached=11832311808, shared=9449472)
+2016-10-14 02:51:29,034 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:30,034 all          INFO     CPU usage = 8.1
+2016-10-14 02:51:30,034 all          INFO     CPU stats = scpustats(ctx_switches=20128279, interrupts=9427082, soft_interrupts=7563394, syscalls=0)
+2016-10-14 02:51:30,035 all          INFO     Virtual memory = svmem(total=16783757312, available=12106637312, percent=27.9, used=16621031424, free=162725888, active=8659013632, inactive=7314038784, buffers=109121536, cached=11834789888, shared=9449472)
+2016-10-14 02:51:30,035 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:31,036 all          INFO     CPU usage = 9.8
+2016-10-14 02:51:31,036 all          INFO     CPU stats = scpustats(ctx_switches=20134381, interrupts=9429359, soft_interrupts=7564572, syscalls=0)
+2016-10-14 02:51:31,036 all          INFO     Virtual memory = svmem(total=16783757312, available=12105154560, percent=27.9, used=16628379648, free=155377664, active=8661716992, inactive=7317164032, buffers=109125632, cached=11840651264, shared=9449472)
+2016-10-14 02:51:31,036 all          INFO     Swap memory = sswap(total=17137922048, used=512000, free=17137410048, percent=0.0, sin=827392, sout=4919296)
+2016-10-14 02:51:32,038 all          INFO     CPU usage = 11.3
+2016-10-14 02:51:32,038 all          INFO     CPU stats = scpustats(ctx_switches=20139839, interrupts=9432013, soft_interrupts=7565762, syscalls=0)
+2016-10-14 02:51:32,038 all          INFO     Virtual memory = svmem(total=16783757312, available=12103065600, percent=27.9, used=16596918272, free=186839040, active=8655020032, inactive=7290912768, buffers=109068288, cached=11807158272, shared=9449472)
+2016-10-14 02:51:32,038 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:33,039 all          INFO     CPU usage = 5.0
+2016-10-14 02:51:33,039 all          INFO     CPU stats = scpustats(ctx_switches=20144650, interrupts=9434239, soft_interrupts=7566716, syscalls=0)
+2016-10-14 02:51:33,039 all          INFO     Virtual memory = svmem(total=16783757312, available=12103008256, percent=27.9, used=16597712896, free=186044416, active=8654925824, inactive=7291666432, buffers=109068288, cached=11807895552, shared=9449472)
+2016-10-14 02:51:33,040 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:34,041 all          INFO     CPU usage = 6.4
+2016-10-14 02:51:34,041 all          INFO     CPU stats = scpustats(ctx_switches=20150125, interrupts=9436707, soft_interrupts=7567844, syscalls=0)
+2016-10-14 02:51:34,041 all          INFO     Virtual memory = svmem(total=16783757312, available=12102946816, percent=27.9, used=16600125440, free=183631872, active=8655638528, inactive=7293304832, buffers=109068288, cached=11810246656, shared=9449472)
+2016-10-14 02:51:34,041 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:35,043 all          INFO     CPU usage = 9.2
+2016-10-14 02:51:35,043 all          INFO     CPU stats = scpustats(ctx_switches=20154544, interrupts=9438749, soft_interrupts=7568947, syscalls=0)
+2016-10-14 02:51:35,043 all          INFO     Virtual memory = svmem(total=16783757312, available=12103266304, percent=27.9, used=16604315648, free=179441664, active=8655609856, inactive=7296786432, buffers=109068288, cached=11814756352, shared=9449472)
+2016-10-14 02:51:35,043 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:36,045 all          INFO     CPU usage = 10.8
+2016-10-14 02:51:36,045 all          INFO     CPU stats = scpustats(ctx_switches=20161292, interrupts=9441822, soft_interrupts=7570374, syscalls=0)
+2016-10-14 02:51:36,045 all          INFO     Virtual memory = svmem(total=16783757312, available=12103856128, percent=27.9, used=16609533952, free=174223360, active=8656441344, inactive=7301824512, buffers=109068288, cached=11820564480, shared=9449472)
+2016-10-14 02:51:36,045 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:37,046 all          INFO     CPU usage = 7.1
+2016-10-14 02:51:37,046 all          INFO     CPU stats = scpustats(ctx_switches=20164705, interrupts=9443432, soft_interrupts=7571303, syscalls=0)
+2016-10-14 02:51:37,047 all          INFO     Virtual memory = svmem(total=16783757312, available=12103786496, percent=27.9, used=16612184064, free=171573248, active=8656932864, inactive=7304228864, buffers=109072384, cached=11823140864, shared=9449472)
+2016-10-14 02:51:37,047 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:38,048 all          INFO     CPU usage = 8.6
+2016-10-14 02:51:38,048 all          INFO     CPU stats = scpustats(ctx_switches=20169935, interrupts=9445788, soft_interrupts=7572449, syscalls=0)
+2016-10-14 02:51:38,048 all          INFO     Virtual memory = svmem(total=16783757312, available=12104159232, percent=27.9, used=16614723584, free=169033728, active=8657461248, inactive=7306625024, buffers=109080576, cached=11826044928, shared=9449472)
+2016-10-14 02:51:38,048 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:39,050 all          INFO     CPU usage = 12.5
+2016-10-14 02:51:39,050 all          INFO     CPU stats = scpustats(ctx_switches=20175358, interrupts=9448274, soft_interrupts=7573705, syscalls=0)
+2016-10-14 02:51:39,050 all          INFO     Virtual memory = svmem(total=16783757312, available=12104220672, percent=27.9, used=16618041344, free=165715968, active=8657661952, inactive=7309537280, buffers=109088768, cached=11829415936, shared=9449472)
+2016-10-14 02:51:39,050 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:40,051 all          INFO     CPU usage = 6.3
+2016-10-14 02:51:40,051 all          INFO     CPU stats = scpustats(ctx_switches=20180950, interrupts=9450820, soft_interrupts=7574792, syscalls=0)
+2016-10-14 02:51:40,051 all          INFO     Virtual memory = svmem(total=16783757312, available=12104540160, percent=27.9, used=16621756416, free=162000896, active=8658829312, inactive=7312334848, buffers=109088768, cached=11833450496, shared=9449472)
+2016-10-14 02:51:40,052 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:41,053 all          INFO     CPU usage = 4.5
+2016-10-14 02:51:41,053 all          INFO     CPU stats = scpustats(ctx_switches=20185276, interrupts=9452803, soft_interrupts=7575761, syscalls=0)
+2016-10-14 02:51:41,053 all          INFO     Virtual memory = svmem(total=16783757312, available=12103913472, percent=27.9, used=16624119808, free=159637504, active=8659206144, inactive=7314268160, buffers=109088768, cached=11835187200, shared=9449472)
+2016-10-14 02:51:41,053 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:42,054 all          INFO     CPU usage = 8.2
+2016-10-14 02:51:42,055 all          INFO     CPU stats = scpustats(ctx_switches=20191094, interrupts=9455337, soft_interrupts=7577025, syscalls=0)
+2016-10-14 02:51:42,055 all          INFO     Virtual memory = svmem(total=16783757312, available=12103307264, percent=27.9, used=16593162240, free=190595072, active=8652873728, inactive=7288840192, buffers=109084672, cached=11803627520, shared=9449472)
+2016-10-14 02:51:42,055 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:43,056 all          INFO     CPU usage = 8.9
+2016-10-14 02:51:43,056 all          INFO     CPU stats = scpustats(ctx_switches=20196477, interrupts=9457768, soft_interrupts=7578421, syscalls=0)
+2016-10-14 02:51:43,056 all          INFO     Virtual memory = svmem(total=16783757312, available=12102688768, percent=27.9, used=16598200320, free=185556992, active=8654368768, inactive=7292735488, buffers=109084672, cached=11808047104, shared=9449472)
+2016-10-14 02:51:43,056 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:44,057 all          INFO     CPU usage = 7.2
+2016-10-14 02:51:44,058 all          INFO     CPU stats = scpustats(ctx_switches=20200878, interrupts=9459775, soft_interrupts=7579498, syscalls=0)
+2016-10-14 02:51:44,058 all          INFO     Virtual memory = svmem(total=16783757312, available=12102692864, percent=27.9, used=16600612864, free=183144448, active=8655138816, inactive=7294488576, buffers=109084672, cached=11810463744, shared=9449472)
+2016-10-14 02:51:44,058 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:45,059 all          INFO     CPU usage = 9.9
+2016-10-14 02:51:45,059 all          INFO     CPU stats = scpustats(ctx_switches=20206657, interrupts=9462433, soft_interrupts=7580745, syscalls=0)
+2016-10-14 02:51:45,059 all          INFO     Virtual memory = svmem(total=16783757312, available=12102635520, percent=27.9, used=16605564928, free=178192384, active=8656392192, inactive=7298203648, buffers=109084672, cached=11815358464, shared=9449472)
+2016-10-14 02:51:45,059 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:46,060 all          INFO     CPU usage = 3.5
+2016-10-14 02:51:46,061 all          INFO     CPU stats = scpustats(ctx_switches=20211109, interrupts=9464496, soft_interrupts=7581650, syscalls=0)
+2016-10-14 02:51:46,061 all          INFO     Virtual memory = svmem(total=16783757312, available=12102205440, percent=27.9, used=16607088640, free=176668672, active=8656850944, inactive=7298654208, buffers=109084672, cached=11816452096, shared=9449472)
+2016-10-14 02:51:46,061 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:47,062 all          INFO     CPU usage = 9.9
+2016-10-14 02:51:47,062 all          INFO     CPU stats = scpustats(ctx_switches=20217851, interrupts=9467567, soft_interrupts=7583138, syscalls=0)
+2016-10-14 02:51:47,062 all          INFO     Virtual memory = svmem(total=16783757312, available=12101386240, percent=27.9, used=16614277120, free=169480192, active=8658804736, inactive=7304695808, buffers=109084672, cached=11822821376, shared=9449472)
+2016-10-14 02:51:47,063 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:48,064 all          INFO     CPU usage = 7.1
+2016-10-14 02:51:48,064 all          INFO     CPU stats = scpustats(ctx_switches=20223278, interrupts=9470075, soft_interrupts=7584374, syscalls=0)
+2016-10-14 02:51:48,064 all          INFO     Virtual memory = svmem(total=16783757312, available=12100739072, percent=27.9, used=16619229184, free=164528128, active=8660103168, inactive=7308271616, buffers=109084672, cached=11827126272, shared=9449472)
+2016-10-14 02:51:48,064 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:49,066 all          INFO     CPU usage = 8.6
+2016-10-14 02:51:49,066 all          INFO     CPU stats = scpustats(ctx_switches=20229676, interrupts=9473036, soft_interrupts=7585815, syscalls=0)
+2016-10-14 02:51:49,066 all          INFO     Virtual memory = svmem(total=16783757312, available=12099989504, percent=27.9, used=16621641728, free=162115584, active=8661684224, inactive=7309299712, buffers=109092864, cached=11828781056, shared=9449472)
+2016-10-14 02:51:49,066 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:50,066 all          INFO     CPU usage = 7.5
+2016-10-14 02:51:50,067 all          INFO     CPU stats = scpustats(ctx_switches=20234893, interrupts=9475476, soft_interrupts=7586937, syscalls=0)
+2016-10-14 02:51:50,067 all          INFO     Virtual memory = svmem(total=16783757312, available=12099338240, percent=27.9, used=16623546368, free=160210944, active=8662421504, inactive=7310327808, buffers=109092864, cached=11830034432, shared=9449472)
+2016-10-14 02:51:50,067 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:51,068 all          INFO     CPU usage = 9.4
+2016-10-14 02:51:51,068 all          INFO     CPU stats = scpustats(ctx_switches=20241204, interrupts=9478464, soft_interrupts=7588350, syscalls=0)
+2016-10-14 02:51:51,068 all          INFO     Virtual memory = svmem(total=16783757312, available=12098867200, percent=27.9, used=16624893952, free=158863360, active=8663191552, inactive=7310991360, buffers=109092864, cached=11830910976, shared=9449472)
+2016-10-14 02:51:51,068 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:52,070 all          INFO     CPU usage = 4.8
+2016-10-14 02:51:52,070 all          INFO     CPU stats = scpustats(ctx_switches=20245334, interrupts=9480374, soft_interrupts=7589188, syscalls=0)
+2016-10-14 02:51:52,070 all          INFO     Virtual memory = svmem(total=16783757312, available=12098220032, percent=27.9, used=16627593216, free=156164096, active=8664350720, inactive=7312584704, buffers=109092864, cached=11832963072, shared=9449472)
+2016-10-14 02:51:52,071 all          INFO     Swap memory = sswap(total=17137922048, used=516096, free=17137405952, percent=0.0, sin=827392, sout=4923392)
+2016-10-14 02:51:53,071 all          INFO     CPU usage = 14.4
+2016-10-14 02:51:53,071 all          INFO     CPU stats = scpustats(ctx_switches=20251146, interrupts=9483185, soft_interrupts=7590582, syscalls=0)
+2016-10-14 02:51:53,072 all          INFO     Virtual memory = svmem(total=16783757312, available=12097056768, percent=27.9, used=16597516288, free=186241024, active=8660295680, inactive=7285682176, buffers=109092864, cached=11801722880, shared=9449472)
+2016-10-14 02:51:53,072 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:54,073 all          INFO     CPU usage = 7.1
+2016-10-14 02:51:54,073 all          INFO     CPU stats = scpustats(ctx_switches=20255984, interrupts=9485385, soft_interrupts=7591556, syscalls=0)
+2016-10-14 02:51:54,073 all          INFO     Virtual memory = svmem(total=16783757312, available=12096372736, percent=27.9, used=16600817664, free=182939648, active=8661807104, inactive=7287844864, buffers=109096960, cached=11804336128, shared=9449472)
+2016-10-14 02:51:54,073 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:55,074 all          INFO     CPU usage = 11.2
+2016-10-14 02:51:55,075 all          INFO     CPU stats = scpustats(ctx_switches=20262741, interrupts=9488521, soft_interrupts=7592991, syscalls=0)
+2016-10-14 02:51:55,075 all          INFO     Virtual memory = svmem(total=16783757312, available=12095238144, percent=27.9, used=16609038336, free=174718976, active=8664309760, inactive=7293194240, buffers=109096960, cached=11811422208, shared=9449472)
+2016-10-14 02:51:55,075 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:56,076 all          INFO     CPU usage = 11.1
+2016-10-14 02:51:56,076 all          INFO     CPU stats = scpustats(ctx_switches=20269187, interrupts=9491483, soft_interrupts=7594310, syscalls=0)
+2016-10-14 02:51:56,076 all          INFO     Virtual memory = svmem(total=16783757312, available=12094029824, percent=27.9, used=16614117376, free=169639936, active=8665960448, inactive=7297187840, buffers=109101056, cached=11815288832, shared=9449472)
+2016-10-14 02:51:56,077 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:57,078 all          INFO     CPU usage = 8.4
+2016-10-14 02:51:57,078 all          INFO     CPU stats = scpustats(ctx_switches=20273311, interrupts=9493346, soft_interrupts=7595340, syscalls=0)
+2016-10-14 02:51:57,078 all          INFO     Virtual memory = svmem(total=16783757312, available=12093632512, percent=27.9, used=16616497152, free=167260160, active=8667230208, inactive=7298707456, buffers=109105152, cached=11817267200, shared=9449472)
+2016-10-14 02:51:57,078 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:58,079 all          INFO     CPU usage = 7.1
+2016-10-14 02:51:58,080 all          INFO     CPU stats = scpustats(ctx_switches=20277840, interrupts=9495431, soft_interrupts=7596394, syscalls=0)
+2016-10-14 02:51:58,080 all          INFO     Virtual memory = svmem(total=16783757312, available=12093534208, percent=27.9, used=16620179456, free=163577856, active=8668585984, inactive=7301480448, buffers=109105152, cached=11820851200, shared=9449472)
+2016-10-14 02:51:58,080 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:51:59,081 all          INFO     CPU usage = 5.3
+2016-10-14 02:51:59,081 all          INFO     CPU stats = scpustats(ctx_switches=20282955, interrupts=9497831, soft_interrupts=7597493, syscalls=0)
+2016-10-14 02:51:59,081 all          INFO     Virtual memory = svmem(total=16783757312, available=12092936192, percent=27.9, used=16620814336, free=162942976, active=8669405184, inactive=7301521408, buffers=109105152, cached=11820888064, shared=9449472)
+2016-10-14 02:51:59,082 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=827392, sout=4927488)
+2016-10-14 02:52:00,082 all          INFO     CPU usage = 13.4
+2016-10-14 02:52:00,082 all          INFO     CPU stats = scpustats(ctx_switches=20289555, interrupts=9501008, soft_interrupts=7598992, syscalls=0)
+2016-10-14 02:52:00,082 all          INFO     Virtual memory = svmem(total=16783757312, available=12030181376, percent=28.3, used=16600592384, free=183164928, active=8713195520, inactive=7236513792, buffers=109076480, cached=11737939968, shared=9449472)
+2016-10-14 02:52:00,082 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:01,083 all          INFO     CPU usage = 9.6
+2016-10-14 02:52:01,084 all          INFO     CPU stats = scpustats(ctx_switches=20295362, interrupts=9503609, soft_interrupts=7600054, syscalls=0)
+2016-10-14 02:52:01,084 all          INFO     Virtual memory = svmem(total=16783757312, available=12028968960, percent=28.3, used=16605417472, free=178339840, active=8713936896, inactive=7239905280, buffers=109084672, cached=11741544448, shared=9449472)
+2016-10-14 02:52:01,084 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:02,085 all          INFO     CPU usage = 10.9
+2016-10-14 02:52:02,085 all          INFO     CPU stats = scpustats(ctx_switches=20302885, interrupts=9507045, soft_interrupts=7601657, syscalls=0)
+2016-10-14 02:52:02,085 all          INFO     Virtual memory = svmem(total=16783757312, available=12028928000, percent=28.3, used=16608845824, free=174911488, active=8715395072, inactive=7241818112, buffers=109084672, cached=11744931840, shared=9449472)
+2016-10-14 02:52:02,086 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:03,087 all          INFO     CPU usage = 10.5
+2016-10-14 02:52:03,087 all          INFO     CPU stats = scpustats(ctx_switches=20309288, interrupts=9510008, soft_interrupts=7603250, syscalls=0)
+2016-10-14 02:52:03,087 all          INFO     Virtual memory = svmem(total=16783757312, available=12027359232, percent=28.3, used=16613670912, free=170086400, active=8718643200, inactive=7244939264, buffers=109084672, cached=11748188160, shared=9449472)
+2016-10-14 02:52:03,087 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:04,088 all          INFO     CPU usage = 11.8
+2016-10-14 02:52:04,089 all          INFO     CPU stats = scpustats(ctx_switches=20315637, interrupts=9512887, soft_interrupts=7604681, syscalls=0)
+2016-10-14 02:52:04,089 all          INFO     Virtual memory = svmem(total=16783757312, available=12025159680, percent=28.4, used=16620908544, free=162848768, active=8720596992, inactive=7249543168, buffers=109084672, cached=11753226240, shared=9449472)
+2016-10-14 02:52:04,089 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:05,090 all          INFO     CPU usage = 7.1
+2016-10-14 02:52:05,090 all          INFO     CPU stats = scpustats(ctx_switches=20320470, interrupts=9515124, soft_interrupts=7605779, syscalls=0)
+2016-10-14 02:52:05,090 all          INFO     Virtual memory = svmem(total=16783757312, available=12026458112, percent=28.3, used=16622051328, free=161705984, active=8719212544, inactive=7251582976, buffers=109084672, cached=11755667456, shared=9449472)
+2016-10-14 02:52:05,090 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:06,092 all          INFO     CPU usage = 7.8
+2016-10-14 02:52:06,092 all          INFO     CPU stats = scpustats(ctx_switches=20325197, interrupts=9517213, soft_interrupts=7606859, syscalls=0)
+2016-10-14 02:52:06,092 all          INFO     Virtual memory = svmem(total=16783757312, available=12026482688, percent=28.3, used=16626860032, free=156897280, active=8720482304, inactive=7255617536, buffers=109088768, cached=11760496640, shared=9449472)
+2016-10-14 02:52:06,092 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:07,093 all          INFO     CPU usage = 7.3
+2016-10-14 02:52:07,094 all          INFO     CPU stats = scpustats(ctx_switches=20330734, interrupts=9519839, soft_interrupts=7607972, syscalls=0)
+2016-10-14 02:52:07,094 all          INFO     Virtual memory = svmem(total=16783757312, available=12024176640, percent=28.4, used=16597504000, free=186253312, active=8714813440, inactive=7230746624, buffers=109076480, cached=11728846848, shared=9449472)
+2016-10-14 02:52:07,094 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:08,095 all          INFO     CPU usage = 6.7
+2016-10-14 02:52:08,095 all          INFO     CPU stats = scpustats(ctx_switches=20335149, interrupts=9521947, soft_interrupts=7608854, syscalls=0)
+2016-10-14 02:52:08,095 all          INFO     Virtual memory = svmem(total=16783757312, available=12023975936, percent=28.4, used=16601337856, free=182419456, active=8716496896, inactive=7233757184, buffers=109076480, cached=11732480000, shared=9449472)
+2016-10-14 02:52:08,095 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:09,096 all          INFO     CPU usage = 6.2
+2016-10-14 02:52:09,096 all          INFO     CPU stats = scpustats(ctx_switches=20339685, interrupts=9523986, soft_interrupts=7609875, syscalls=0)
+2016-10-14 02:52:09,096 all          INFO     Virtual memory = svmem(total=16783757312, available=12023070720, percent=28.4, used=16604385280, free=179372032, active=8717508608, inactive=7235612672, buffers=109076480, cached=11734622208, shared=9449472)
+2016-10-14 02:52:09,097 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:10,098 all          INFO     CPU usage = 5.4
+2016-10-14 02:52:10,098 all          INFO     CPU stats = scpustats(ctx_switches=20344309, interrupts=9526170, soft_interrupts=7610938, syscalls=0)
+2016-10-14 02:52:10,098 all          INFO     Virtual memory = svmem(total=16783757312, available=12022554624, percent=28.4, used=16605667328, free=178089984, active=8718176256, inactive=7236022272, buffers=109076480, cached=11735388160, shared=9449472)
+2016-10-14 02:52:10,099 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:11,100 all          INFO     CPU usage = 8.0
+2016-10-14 02:52:11,100 all          INFO     CPU stats = scpustats(ctx_switches=20350189, interrupts=9528817, soft_interrupts=7612126, syscalls=0)
+2016-10-14 02:52:11,100 all          INFO     Virtual memory = svmem(total=16783757312, available=12022202368, percent=28.4, used=16610619392, free=173137920, active=8720240640, inactive=7239462912, buffers=109076480, cached=11739987968, shared=9449472)
+2016-10-14 02:52:11,100 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:12,101 all          INFO     CPU usage = 8.5
+2016-10-14 02:52:12,102 all          INFO     CPU stats = scpustats(ctx_switches=20355473, interrupts=9531229, soft_interrupts=7613217, syscalls=0)
+2016-10-14 02:52:12,102 all          INFO     Virtual memory = svmem(total=16783757312, available=12021555200, percent=28.4, used=16615444480, free=168312832, active=8721752064, inactive=7242113024, buffers=109076480, cached=11744165888, shared=9449472)
+2016-10-14 02:52:12,102 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:13,103 all          INFO     CPU usage = 9.9
+2016-10-14 02:52:13,103 all          INFO     CPU stats = scpustats(ctx_switches=20361679, interrupts=9533987, soft_interrupts=7614582, syscalls=0)
+2016-10-14 02:52:13,103 all          INFO     Virtual memory = svmem(total=16783757312, available=12020600832, percent=28.4, used=16620396544, free=163360768, active=8723587072, inactive=7245750272, buffers=109080576, cached=11748159488, shared=9449472)
+2016-10-14 02:52:13,104 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:14,105 all          INFO     CPU usage = 8.5
+2016-10-14 02:52:14,105 all          INFO     CPU stats = scpustats(ctx_switches=20365831, interrupts=9535944, soft_interrupts=7615516, syscalls=0)
+2016-10-14 02:52:14,105 all          INFO     Virtual memory = svmem(total=16783757312, available=12019408896, percent=28.4, used=16623824896, free=159932416, active=8725594112, inactive=7247609856, buffers=109084672, cached=11750391808, shared=9449472)
+2016-10-14 02:52:14,105 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:15,106 all          INFO     CPU usage = 4.4
+2016-10-14 02:52:15,106 all          INFO     CPU stats = scpustats(ctx_switches=20371404, interrupts=9538469, soft_interrupts=7616669, syscalls=0)
+2016-10-14 02:52:15,106 all          INFO     Virtual memory = svmem(total=16783757312, available=12018671616, percent=28.4, used=16625348608, free=158408704, active=8726814720, inactive=7247839232, buffers=109084672, cached=11751178240, shared=9449472)
+2016-10-14 02:52:15,106 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:16,107 all          INFO     CPU usage = 10.3
+2016-10-14 02:52:16,107 all          INFO     CPU stats = scpustats(ctx_switches=20377564, interrupts=9541344, soft_interrupts=7618218, syscalls=0)
+2016-10-14 02:52:16,107 all          INFO     Virtual memory = svmem(total=16783757312, available=12016611328, percent=28.4, used=16593948672, free=189808640, active=8719413248, inactive=7222677504, buffers=109015040, cached=11717787648, shared=9449472)
+2016-10-14 02:52:16,108 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:17,109 all          INFO     CPU usage = 9.1
+2016-10-14 02:52:17,109 all          INFO     CPU stats = scpustats(ctx_switches=20384523, interrupts=9544488, soft_interrupts=7619608, syscalls=0)
+2016-10-14 02:52:17,109 all          INFO     Virtual memory = svmem(total=16783757312, available=12015718400, percent=28.4, used=16599666688, free=184090624, active=8720568320, inactive=7227150336, buffers=109015040, cached=11722612736, shared=9449472)
+2016-10-14 02:52:17,109 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:18,110 all          INFO     CPU usage = 9.5
+2016-10-14 02:52:18,110 all          INFO     CPU stats = scpustats(ctx_switches=20389979, interrupts=9546957, soft_interrupts=7621069, syscalls=0)
+2016-10-14 02:52:18,110 all          INFO     Virtual memory = svmem(total=16783757312, available=12014620672, percent=28.4, used=16606347264, free=177410048, active=8724295680, inactive=7231639552, buffers=109015040, cached=11728195584, shared=9449472)
+2016-10-14 02:52:18,110 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:19,111 all          INFO     CPU usage = 9.6
+2016-10-14 02:52:19,111 all          INFO     CPU stats = scpustats(ctx_switches=20395569, interrupts=9549513, soft_interrupts=7622348, syscalls=0)
+2016-10-14 02:52:19,111 all          INFO     Virtual memory = svmem(total=16783757312, available=12013535232, percent=28.4, used=16610283520, free=173473792, active=8725811200, inactive=7234023424, buffers=109019136, cached=11731042304, shared=9449472)
+2016-10-14 02:52:19,112 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:20,113 all          INFO     CPU usage = 7.1
+2016-10-14 02:52:20,113 all          INFO     CPU stats = scpustats(ctx_switches=20400668, interrupts=9551852, soft_interrupts=7623546, syscalls=0)
+2016-10-14 02:52:20,113 all          INFO     Virtual memory = svmem(total=16783757312, available=12012347392, percent=28.4, used=16613838848, free=169918464, active=8727199744, inactive=7235960832, buffers=109019136, cached=11733409792, shared=9449472)
+2016-10-14 02:52:20,113 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:21,114 all          INFO     CPU usage = 10.5
+2016-10-14 02:52:21,115 all          INFO     CPU stats = scpustats(ctx_switches=20407008, interrupts=9554797, soft_interrupts=7624883, syscalls=0)
+2016-10-14 02:52:21,115 all          INFO     Virtual memory = svmem(total=16783757312, available=12011114496, percent=28.4, used=16619552768, free=164204544, active=8728121344, inactive=7239372800, buffers=109019136, cached=11737890816, shared=9449472)
+2016-10-14 02:52:21,115 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:22,116 all          INFO     CPU usage = 8.6
+2016-10-14 02:52:22,116 all          INFO     CPU stats = scpustats(ctx_switches=20413711, interrupts=9557893, soft_interrupts=7626165, syscalls=0)
+2016-10-14 02:52:22,116 all          INFO     Virtual memory = svmem(total=16783757312, available=12009947136, percent=28.4, used=16626536448, free=157220864, active=8731385856, inactive=7244189696, buffers=109019136, cached=11743707136, shared=9449472)
+2016-10-14 02:52:22,116 all          INFO     Swap memory = sswap(total=17137922048, used=557056, free=17137364992, percent=0.0, sin=827392, sout=4964352)
+2016-10-14 02:52:23,118 all          INFO     CPU usage = 7.5
+2016-10-14 02:52:23,118 all          INFO     CPU stats = scpustats(ctx_switches=20419518, interrupts=9560565, soft_interrupts=7627495, syscalls=0)
+2016-10-14 02:52:23,118 all          INFO     Virtual memory = svmem(total=16783757312, available=12007796736, percent=28.5, used=16598568960, free=185188352, active=8727089152, inactive=7220264960, buffers=109015040, cached=11713593344, shared=9449472)
+2016-10-14 02:52:23,118 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:24,119 all          INFO     CPU usage = 9.9
+2016-10-14 02:52:24,120 all          INFO     CPU stats = scpustats(ctx_switches=20425391, interrupts=9563342, soft_interrupts=7628835, syscalls=0)
+2016-10-14 02:52:24,120 all          INFO     Virtual memory = svmem(total=16783757312, available=12006481920, percent=28.5, used=16602046464, free=181710848, active=8728858624, inactive=7221784576, buffers=109015040, cached=11715756032, shared=9449472)
+2016-10-14 02:52:24,120 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:25,121 all          INFO     CPU usage = 7.0
+2016-10-14 02:52:25,121 all          INFO     CPU stats = scpustats(ctx_switches=20430727, interrupts=9565822, soft_interrupts=7629983, syscalls=0)
+2016-10-14 02:52:25,121 all          INFO     Virtual memory = svmem(total=16783757312, available=12005797888, percent=28.5, used=16604078080, free=179679232, active=8730447872, inactive=7222546432, buffers=109015040, cached=11717103616, shared=9449472)
+2016-10-14 02:52:25,121 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:26,122 all          INFO     CPU usage = 12.6
+2016-10-14 02:52:26,123 all          INFO     CPU stats = scpustats(ctx_switches=20434989, interrupts=9567895, soft_interrupts=7631093, syscalls=0)
+2016-10-14 02:52:26,123 all          INFO     Virtual memory = svmem(total=16783757312, available=12004446208, percent=28.5, used=16609853440, free=173903872, active=8734728192, inactive=7223820288, buffers=109031424, cached=11721510912, shared=9449472)
+2016-10-14 02:52:26,123 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:27,124 all          INFO     CPU usage = 5.4
+2016-10-14 02:52:27,124 all          INFO     CPU stats = scpustats(ctx_switches=20439977, interrupts=9570077, soft_interrupts=7632167, syscalls=0)
+2016-10-14 02:52:27,125 all          INFO     Virtual memory = svmem(total=16783757312, available=12003844096, percent=28.5, used=16612773888, free=170983424, active=8736206848, inactive=7225495552, buffers=109031424, cached=11723829248, shared=9449472)
+2016-10-14 02:52:27,125 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:28,126 all          INFO     CPU usage = 7.1
+2016-10-14 02:52:28,126 all          INFO     CPU stats = scpustats(ctx_switches=20445172, interrupts=9572523, soft_interrupts=7633338, syscalls=0)
+2016-10-14 02:52:28,126 all          INFO     Virtual memory = svmem(total=16783757312, available=12003045376, percent=28.5, used=16615313408, free=168443904, active=8737894400, inactive=7226679296, buffers=109031424, cached=11725570048, shared=9449472)
+2016-10-14 02:52:28,126 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:29,128 all          INFO     CPU usage = 4.7
+2016-10-14 02:52:29,128 all          INFO     CPU stats = scpustats(ctx_switches=20449746, interrupts=9574651, soft_interrupts=7634251, syscalls=0)
+2016-10-14 02:52:29,128 all          INFO     Virtual memory = svmem(total=16783757312, available=12002500608, percent=28.5, used=16616787968, free=166969344, active=8738791424, inactive=7227273216, buffers=109031424, cached=11726499840, shared=9449472)
+2016-10-14 02:52:29,128 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:30,129 all          INFO     CPU usage = 6.3
+2016-10-14 02:52:30,129 all          INFO     CPU stats = scpustats(ctx_switches=20455422, interrupts=9577180, soft_interrupts=7635434, syscalls=0)
+2016-10-14 02:52:30,130 all          INFO     Virtual memory = svmem(total=16783757312, available=12002009088, percent=28.5, used=16622374912, free=161382400, active=8740696064, inactive=7231819776, buffers=109031424, cached=11731595264, shared=9449472)
+2016-10-14 02:52:30,130 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:31,131 all          INFO     CPU usage = 10.4
+2016-10-14 02:52:31,131 all          INFO     CPU stats = scpustats(ctx_switches=20459902, interrupts=9579314, soft_interrupts=7636573, syscalls=0)
+2016-10-14 02:52:31,131 all          INFO     Virtual memory = svmem(total=16783757312, available=12001677312, percent=28.5, used=16623865856, free=159891456, active=8741588992, inactive=7232598016, buffers=109039616, cached=11732746240, shared=9449472)
+2016-10-14 02:52:31,131 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:32,133 all          INFO     CPU usage = 6.5
+2016-10-14 02:52:32,133 all          INFO     CPU stats = scpustats(ctx_switches=20465039, interrupts=9581656, soft_interrupts=7637673, syscalls=0)
+2016-10-14 02:52:32,133 all          INFO     Virtual memory = svmem(total=16783757312, available=12001239040, percent=28.5, used=16627421184, free=156336128, active=8742338560, inactive=7234887680, buffers=109039616, cached=11735863296, shared=9449472)
+2016-10-14 02:52:32,133 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:33,134 all          INFO     CPU usage = 5.6
+2016-10-14 02:52:33,134 all          INFO     CPU stats = scpustats(ctx_switches=20468457, interrupts=9583236, soft_interrupts=7638525, syscalls=0)
+2016-10-14 02:52:33,135 all          INFO     Virtual memory = svmem(total=16783757312, available=11998642176, percent=28.5, used=16598765568, free=184991744, active=8736194560, inactive=7211057152, buffers=109023232, cached=11704627200, shared=9449472)
+2016-10-14 02:52:33,135 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:34,136 all          INFO     CPU usage = 6.1
+2016-10-14 02:52:34,136 all          INFO     CPU stats = scpustats(ctx_switches=20473994, interrupts=9585761, soft_interrupts=7639557, syscalls=0)
+2016-10-14 02:52:34,136 all          INFO     Virtual memory = svmem(total=16783757312, available=11998568448, percent=28.5, used=16602009600, free=181747712, active=8737103872, inactive=7212892160, buffers=109023232, cached=11707797504, shared=9449472)
+2016-10-14 02:52:34,136 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:35,137 all          INFO     CPU usage = 6.5
+2016-10-14 02:52:35,138 all          INFO     CPU stats = scpustats(ctx_switches=20479046, interrupts=9588116, soft_interrupts=7640744, syscalls=0)
+2016-10-14 02:52:35,138 all          INFO     Virtual memory = svmem(total=16783757312, available=11998126080, percent=28.5, used=16604041216, free=179716096, active=8738930688, inactive=7214481408, buffers=109023232, cached=11709386752, shared=9449472)
+2016-10-14 02:52:35,138 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:36,139 all          INFO     CPU usage = 8.1
+2016-10-14 02:52:36,139 all          INFO     CPU stats = scpustats(ctx_switches=20484487, interrupts=9591174, soft_interrupts=7642000, syscalls=0)
+2016-10-14 02:52:36,140 all          INFO     Virtual memory = svmem(total=16783757312, available=11996467200, percent=28.5, used=16607555584, free=176201728, active=8750108672, inactive=7206793216, buffers=109023232, cached=11711242240, shared=9449472)
+2016-10-14 02:52:36,140 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:37,141 all          INFO     CPU usage = 9.6
+2016-10-14 02:52:37,141 all          INFO     CPU stats = scpustats(ctx_switches=20490715, interrupts=9594075, soft_interrupts=7643355, syscalls=0)
+2016-10-14 02:52:37,141 all          INFO     Virtual memory = svmem(total=16783757312, available=11995570176, percent=28.5, used=16612929536, free=170827776, active=8752709632, inactive=7210225664, buffers=109023232, cached=11715719168, shared=9449472)
+2016-10-14 02:52:37,141 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:38,142 all          INFO     CPU usage = 6.4
+2016-10-14 02:52:38,142 all          INFO     CPU stats = scpustats(ctx_switches=20496181, interrupts=9596536, soft_interrupts=7644529, syscalls=0)
+2016-10-14 02:52:38,142 all          INFO     Virtual memory = svmem(total=16783757312, available=11994898432, percent=28.5, used=16615723008, free=168034304, active=8753725440, inactive=7211458560, buffers=109023232, cached=11717840896, shared=9449472)
+2016-10-14 02:52:38,142 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:39,143 all          INFO     CPU usage = 4.1
+2016-10-14 02:52:39,143 all          INFO     CPU stats = scpustats(ctx_switches=20500447, interrupts=9598512, soft_interrupts=7645585, syscalls=0)
+2016-10-14 02:52:39,143 all          INFO     Virtual memory = svmem(total=16783757312, available=11993702400, percent=28.5, used=16617373696, free=166383616, active=8755343360, inactive=7211941888, buffers=109023232, cached=11718295552, shared=9449472)
+2016-10-14 02:52:39,144 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:40,145 all          INFO     CPU usage = 11.4
+2016-10-14 02:52:40,145 all          INFO     CPU stats = scpustats(ctx_switches=20506773, interrupts=9601437, soft_interrupts=7647057, syscalls=0)
+2016-10-14 02:52:40,145 all          INFO     Virtual memory = svmem(total=16783757312, available=11992985600, percent=28.5, used=16621309952, free=162447360, active=8756596736, inactive=7214366720, buffers=109023232, cached=11721515008, shared=9449472)
+2016-10-14 02:52:40,145 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:41,146 all          INFO     CPU usage = 7.8
+2016-10-14 02:52:41,147 all          INFO     CPU stats = scpustats(ctx_switches=20511359, interrupts=9603468, soft_interrupts=7648136, syscalls=0)
+2016-10-14 02:52:41,147 all          INFO     Virtual memory = svmem(total=16783757312, available=11991547904, percent=28.6, used=16628420608, free=155336704, active=8758939648, inactive=7218966528, buffers=109027328, cached=11727183872, shared=9449472)
+2016-10-14 02:52:41,147 all          INFO     Swap memory = sswap(total=17137922048, used=577536, free=17137344512, percent=0.0, sin=827392, sout=4984832)
+2016-10-14 02:52:42,148 all          INFO     CPU usage = 13.0
+2016-10-14 02:52:42,148 all          INFO     CPU stats = scpustats(ctx_switches=20517897, interrupts=9606417, soft_interrupts=7649614, syscalls=0)
+2016-10-14 02:52:42,148 all          INFO     Virtual memory = svmem(total=16783757312, available=11989979136, percent=28.6, used=16603373568, free=180383744, active=8752840704, inactive=7200681984, buffers=109027328, cached=11700568064, shared=9449472)
+2016-10-14 02:52:42,149 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:43,150 all          INFO     CPU usage = 11.4
+2016-10-14 02:52:43,150 all          INFO     CPU stats = scpustats(ctx_switches=20524782, interrupts=9609651, soft_interrupts=7651198, syscalls=0)
+2016-10-14 02:52:43,150 all          INFO     Virtual memory = svmem(total=16783757312, available=11988955136, percent=28.6, used=16608452608, free=175304704, active=8754044928, inactive=7204364288, buffers=109027328, cached=11704623104, shared=9449472)
+2016-10-14 02:52:43,150 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:44,151 all          INFO     CPU usage = 8.0
+2016-10-14 02:52:44,151 all          INFO     CPU stats = scpustats(ctx_switches=20529182, interrupts=9611665, soft_interrupts=7652372, syscalls=0)
+2016-10-14 02:52:44,151 all          INFO     Virtual memory = svmem(total=16783757312, available=11988312064, percent=28.6, used=16611246080, free=172511232, active=8755527680, inactive=7205965824, buffers=109027328, cached=11706773504, shared=9449472)
+2016-10-14 02:52:44,152 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:45,153 all          INFO     CPU usage = 4.8
+2016-10-14 02:52:45,153 all          INFO     CPU stats = scpustats(ctx_switches=20533350, interrupts=9613602, soft_interrupts=7653310, syscalls=0)
+2016-10-14 02:52:45,153 all          INFO     Virtual memory = svmem(total=16783757312, available=11986931712, percent=28.6, used=16614039552, free=169717760, active=8757030912, inactive=7207329792, buffers=109027328, cached=11708186624, shared=9449472)
+2016-10-14 02:52:45,153 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:46,154 all          INFO     CPU usage = 8.9
+2016-10-14 02:52:46,154 all          INFO     CPU stats = scpustats(ctx_switches=20537979, interrupts=9615731, soft_interrupts=7654603, syscalls=0)
+2016-10-14 02:52:46,155 all          INFO     Virtual memory = svmem(total=16783757312, available=11988369408, percent=28.6, used=16611758080, free=171999232, active=8759595008, inactive=7205117952, buffers=109027328, cached=11707342848, shared=9449472)
+2016-10-14 02:52:46,155 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:47,156 all          INFO     CPU usage = 6.6
+2016-10-14 02:52:47,156 all          INFO     CPU stats = scpustats(ctx_switches=20543072, interrupts=9618096, soft_interrupts=7655725, syscalls=0)
+2016-10-14 02:52:47,156 all          INFO     Virtual memory = svmem(total=16783757312, available=11987611648, percent=28.6, used=16614424576, free=169332736, active=8760524800, inactive=7206711296, buffers=109027328, cached=11709251584, shared=9449472)
+2016-10-14 02:52:47,156 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:48,157 all          INFO     CPU usage = 10.2
+2016-10-14 02:52:48,158 all          INFO     CPU stats = scpustats(ctx_switches=20547324, interrupts=9620103, soft_interrupts=7656811, syscalls=0)
+2016-10-14 02:52:48,158 all          INFO     Virtual memory = svmem(total=16783757312, available=11986296832, percent=28.6, used=16619122688, free=164634624, active=8762257408, inactive=7209369600, buffers=109031424, cached=11712630784, shared=9449472)
+2016-10-14 02:52:48,158 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:49,159 all          INFO     CPU usage = 4.9
+2016-10-14 02:52:49,159 all          INFO     CPU stats = scpustats(ctx_switches=20551269, interrupts=9621926, soft_interrupts=7657721, syscalls=0)
+2016-10-14 02:52:49,159 all          INFO     Virtual memory = svmem(total=16783757312, available=11985788928, percent=28.6, used=16621662208, free=162095104, active=8763080704, inactive=7211266048, buffers=109031424, cached=11714662400, shared=9449472)
+2016-10-14 02:52:49,159 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:50,161 all          INFO     CPU usage = 3.7
+2016-10-14 02:52:50,161 all          INFO     CPU stats = scpustats(ctx_switches=20555413, interrupts=9623826, soft_interrupts=7658626, syscalls=0)
+2016-10-14 02:52:50,161 all          INFO     Virtual memory = svmem(total=16783757312, available=11984666624, percent=28.6, used=16624201728, free=159555584, active=8764280832, inactive=7212359680, buffers=109031424, cached=11716079616, shared=9449472)
+2016-10-14 02:52:50,161 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:51,162 all          INFO     CPU usage = 4.2
+2016-10-14 02:52:51,162 all          INFO     CPU stats = scpustats(ctx_switches=20559904, interrupts=9625894, soft_interrupts=7659605, syscalls=0)
+2016-10-14 02:52:51,162 all          INFO     Virtual memory = svmem(total=16783757312, available=11983736832, percent=28.6, used=16626233344, free=157523968, active=8765239296, inactive=7212777472, buffers=109031424, cached=11717181440, shared=9449472)
+2016-10-14 02:52:51,162 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:52,163 all          INFO     CPU usage = 5.4
+2016-10-14 02:52:52,163 all          INFO     CPU stats = scpustats(ctx_switches=20564829, interrupts=9628250, soft_interrupts=7660621, syscalls=0)
+2016-10-14 02:52:52,163 all          INFO     Virtual memory = svmem(total=16783757312, available=11982409728, percent=28.6, used=16628391936, free=155365376, active=8766705664, inactive=7213690880, buffers=109031424, cached=11718012928, shared=9449472)
+2016-10-14 02:52:52,164 all          INFO     Swap memory = sswap(total=17137922048, used=598016, free=17137324032, percent=0.0, sin=827392, sout=5005312)
+2016-10-14 02:52:53,165 all          INFO     CPU usage = 14.3
+2016-10-14 02:52:53,165 all          INFO     CPU stats = scpustats(ctx_switches=20571030, interrupts=9631671, soft_interrupts=7662159, syscalls=0)
+2016-10-14 02:52:53,165 all          INFO     Virtual memory = svmem(total=16783757312, available=11941105664, percent=28.9, used=16608870400, free=174886912, active=8790376448, inactive=7169175552, buffers=109019136, cached=11657199616, shared=9449472)
+2016-10-14 02:52:53,165 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:54,167 all          INFO     CPU usage = 7.7
+2016-10-14 02:52:54,167 all          INFO     CPU stats = scpustats(ctx_switches=20577347, interrupts=9634481, soft_interrupts=7663472, syscalls=0)
+2016-10-14 02:52:54,167 all          INFO     Virtual memory = svmem(total=16783757312, available=11940081664, percent=28.9, used=16614203392, free=169553920, active=8791937024, inactive=7172931584, buffers=109019136, cached=11661508608, shared=9449472)
+2016-10-14 02:52:54,167 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:55,168 all          INFO     CPU usage = 3.7
+2016-10-14 02:52:55,168 all          INFO     CPU stats = scpustats(ctx_switches=20581060, interrupts=9636198, soft_interrupts=7664217, syscalls=0)
+2016-10-14 02:52:55,168 all          INFO     Virtual memory = svmem(total=16783757312, available=11942772736, percent=28.8, used=16612171776, free=171585536, active=8788676608, inactive=7173582848, buffers=109019136, cached=11662168064, shared=9449472)
+2016-10-14 02:52:55,169 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:56,170 all          INFO     CPU usage = 11.5
+2016-10-14 02:52:56,170 all          INFO     CPU stats = scpustats(ctx_switches=20586668, interrupts=9638744, soft_interrupts=7665474, syscalls=0)
+2016-10-14 02:52:56,170 all          INFO     Virtual memory = svmem(total=16783757312, available=11942076416, percent=28.8, used=16617156608, free=166600704, active=8804712448, inactive=7162187776, buffers=109023232, cached=11666452480, shared=9449472)
+2016-10-14 02:52:56,170 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:57,171 all          INFO     CPU usage = 8.0
+2016-10-14 02:52:57,171 all          INFO     CPU stats = scpustats(ctx_switches=20591443, interrupts=9640956, soft_interrupts=7666503, syscalls=0)
+2016-10-14 02:52:57,172 all          INFO     Virtual memory = svmem(total=16783757312, available=11941298176, percent=28.9, used=16618831872, free=164925440, active=8806248448, inactive=7162757120, buffers=109027328, cached=11667345408, shared=9449472)
+2016-10-14 02:52:57,172 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:58,173 all          INFO     CPU usage = 6.6
+2016-10-14 02:52:58,174 all          INFO     CPU stats = scpustats(ctx_switches=20596893, interrupts=9643454, soft_interrupts=7667734, syscalls=0)
+2016-10-14 02:52:58,174 all          INFO     Virtual memory = svmem(total=16783757312, available=11940982784, percent=28.9, used=16620736512, free=163020800, active=8806780928, inactive=7163822080, buffers=109027328, cached=11668934656, shared=9449472)
+2016-10-14 02:52:58,175 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:52:59,176 all          INFO     CPU usage = 4.1
+2016-10-14 02:52:59,176 all          INFO     CPU stats = scpustats(ctx_switches=20600599, interrupts=9645188, soft_interrupts=7668455, syscalls=0)
+2016-10-14 02:52:59,176 all          INFO     Virtual memory = svmem(total=16783757312, available=11940737024, percent=28.9, used=16621703168, free=162054144, active=8807944192, inactive=7164444672, buffers=109027328, cached=11669655552, shared=9449472)
+2016-10-14 02:52:59,176 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:00,178 all          INFO     CPU usage = 12.4
+2016-10-14 02:53:00,178 all          INFO     CPU stats = scpustats(ctx_switches=20606891, interrupts=9648171, soft_interrupts=7669875, syscalls=0)
+2016-10-14 02:53:00,178 all          INFO     Virtual memory = svmem(total=16783757312, available=11939700736, percent=28.9, used=16626147328, free=157609984, active=8809459712, inactive=7167115264, buffers=109027328, cached=11673063424, shared=9449472)
+2016-10-14 02:53:00,178 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:01,179 all          INFO     CPU usage = 10.6
+2016-10-14 02:53:01,179 all          INFO     CPU stats = scpustats(ctx_switches=20611757, interrupts=9650342, soft_interrupts=7671171, syscalls=0)
+2016-10-14 02:53:01,179 all          INFO     Virtual memory = svmem(total=16783757312, available=11938041856, percent=28.9, used=16594878464, free=188878848, active=8801804288, inactive=7143202816, buffers=109023232, cached=11640139776, shared=9449472)
+2016-10-14 02:53:01,180 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:02,181 all          INFO     CPU usage = 8.3
+2016-10-14 02:53:02,181 all          INFO     CPU stats = scpustats(ctx_switches=20616705, interrupts=9652595, soft_interrupts=7672252, syscalls=0)
+2016-10-14 02:53:02,181 all          INFO     Virtual memory = svmem(total=16783757312, available=11937603584, percent=28.9, used=16599830528, free=183926784, active=8803364864, inactive=7146340352, buffers=109023232, cached=11644653568, shared=9449472)
+2016-10-14 02:53:02,181 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:03,182 all          INFO     CPU usage = 12.2
+2016-10-14 02:53:03,182 all          INFO     CPU stats = scpustats(ctx_switches=20621640, interrupts=9654935, soft_interrupts=7673648, syscalls=0)
+2016-10-14 02:53:03,182 all          INFO     Virtual memory = svmem(total=16783757312, available=11936817152, percent=28.9, used=16604274688, free=179482624, active=8805318656, inactive=7149621248, buffers=109023232, cached=11648311296, shared=9449472)
+2016-10-14 02:53:03,182 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:04,183 all          INFO     CPU usage = 7.7
+2016-10-14 02:53:04,183 all          INFO     CPU stats = scpustats(ctx_switches=20627267, interrupts=9657499, soft_interrupts=7674880, syscalls=0)
+2016-10-14 02:53:04,184 all          INFO     Virtual memory = svmem(total=16783757312, available=11936641024, percent=28.9, used=16607830016, free=175927296, active=8805519360, inactive=7151685632, buffers=109023232, cached=11651690496, shared=9449472)
+2016-10-14 02:53:04,184 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:05,185 all          INFO     CPU usage = 7.9
+2016-10-14 02:53:05,185 all          INFO     CPU stats = scpustats(ctx_switches=20632385, interrupts=9659861, soft_interrupts=7675935, syscalls=0)
+2016-10-14 02:53:05,185 all          INFO     Virtual memory = svmem(total=16783757312, available=11935039488, percent=28.9, used=16612528128, free=171229184, active=8808128512, inactive=7154855936, buffers=109023232, cached=11654787072, shared=9449472)
+2016-10-14 02:53:05,185 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:06,187 all          INFO     CPU usage = 8.0
+2016-10-14 02:53:06,187 all          INFO     CPU stats = scpustats(ctx_switches=20637073, interrupts=9662232, soft_interrupts=7677008, syscalls=0)
+2016-10-14 02:53:06,187 all          INFO     Virtual memory = svmem(total=16783757312, available=11933138944, percent=28.9, used=16616583168, free=167174144, active=8812453888, inactive=7153717248, buffers=109027328, cached=11656937472, shared=9449472)
+2016-10-14 02:53:06,187 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:07,188 all          INFO     CPU usage = 10.2
+2016-10-14 02:53:07,188 all          INFO     CPU stats = scpustats(ctx_switches=20641650, interrupts=9664459, soft_interrupts=7678183, syscalls=0)
+2016-10-14 02:53:07,189 all          INFO     Virtual memory = svmem(total=16783757312, available=11933126656, percent=28.9, used=16618397696, free=165359616, active=8813518848, inactive=7154798592, buffers=109027328, cached=11658739712, shared=9449472)
+2016-10-14 02:53:07,189 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:08,190 all          INFO     CPU usage = 5.1
+2016-10-14 02:53:08,190 all          INFO     CPU stats = scpustats(ctx_switches=20646451, interrupts=9666720, soft_interrupts=7679168, syscalls=0)
+2016-10-14 02:53:08,190 all          INFO     Virtual memory = svmem(total=16783757312, available=11932651520, percent=28.9, used=16619413504, free=164343808, active=8814546944, inactive=7155068928, buffers=109027328, cached=11659280384, shared=9449472)
+2016-10-14 02:53:08,190 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:09,192 all          INFO     CPU usage = 7.7
+2016-10-14 02:53:09,192 all          INFO     CPU stats = scpustats(ctx_switches=20651159, interrupts=9668870, soft_interrupts=7680344, syscalls=0)
+2016-10-14 02:53:09,192 all          INFO     Virtual memory = svmem(total=16783757312, available=11932520448, percent=28.9, used=16622333952, free=161423360, active=8816136192, inactive=7156977664, buffers=109027328, cached=11662069760, shared=9449472)
+2016-10-14 02:53:09,192 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:10,193 all          INFO     CPU usage = 5.0
+2016-10-14 02:53:10,193 all          INFO     CPU stats = scpustats(ctx_switches=20656428, interrupts=9671275, soft_interrupts=7681609, syscalls=0)
+2016-10-14 02:53:10,193 all          INFO     Virtual memory = svmem(total=16783757312, available=11931574272, percent=28.9, used=16625889280, free=157868032, active=8817389568, inactive=7159336960, buffers=109027328, cached=11664678912, shared=9449472)
+2016-10-14 02:53:10,193 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:11,195 all          INFO     CPU usage = 7.3
+2016-10-14 02:53:11,195 all          INFO     CPU stats = scpustats(ctx_switches=20661791, interrupts=9673776, soft_interrupts=7682693, syscalls=0)
+2016-10-14 02:53:11,195 all          INFO     Virtual memory = svmem(total=16783757312, available=11930791936, percent=28.9, used=16629063680, free=154693632, active=8818835456, inactive=7161389056, buffers=109027328, cached=11667070976, shared=9449472)
+2016-10-14 02:53:11,195 all          INFO     Swap memory = sswap(total=17137922048, used=630784, free=17137291264, percent=0.0, sin=827392, sout=5038080)
+2016-10-14 02:53:12,196 all          INFO     CPU usage = 8.5
+2016-10-14 02:53:12,197 all          INFO     CPU stats = scpustats(ctx_switches=20666875, interrupts=9676130, soft_interrupts=7683936, syscalls=0)
+2016-10-14 02:53:12,197 all          INFO     Virtual memory = svmem(total=16783757312, available=11928870912, percent=28.9, used=16602779648, free=180977664, active=8812306432, inactive=7140417536, buffers=109027328, cached=11638865920, shared=9449472)
+2016-10-14 02:53:12,197 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:13,198 all          INFO     CPU usage = 7.5
+2016-10-14 02:53:13,198 all          INFO     CPU stats = scpustats(ctx_switches=20672080, interrupts=9678585, soft_interrupts=7685043, syscalls=0)
+2016-10-14 02:53:13,198 all          INFO     Virtual memory = svmem(total=16783757312, available=11928158208, percent=28.9, used=16604938240, free=178819072, active=8813600768, inactive=7141572608, buffers=109027328, cached=11640311808, shared=9449472)
+2016-10-14 02:53:13,198 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:14,200 all          INFO     CPU usage = 5.0
+2016-10-14 02:53:14,200 all          INFO     CPU stats = scpustats(ctx_switches=20676429, interrupts=9680617, soft_interrupts=7686084, syscalls=0)
+2016-10-14 02:53:14,200 all          INFO     Virtual memory = svmem(total=16783757312, available=11927683072, percent=28.9, used=16605573120, free=178184192, active=8814370816, inactive=7141662720, buffers=109027328, cached=11640471552, shared=9449472)
+2016-10-14 02:53:14,200 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:15,201 all          INFO     CPU usage = 7.6
+2016-10-14 02:53:15,201 all          INFO     CPU stats = scpustats(ctx_switches=20682506, interrupts=9683367, soft_interrupts=7687408, syscalls=0)
+2016-10-14 02:53:15,201 all          INFO     Virtual memory = svmem(total=16783757312, available=11926384640, percent=28.9, used=16609128448, free=174628864, active=8816234496, inactive=7143047168, buffers=109027328, cached=11642728448, shared=9449472)
+2016-10-14 02:53:15,201 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:16,201 all          INFO     CPU usage = 5.6
+2016-10-14 02:53:16,202 all          INFO     CPU stats = scpustats(ctx_switches=20686898, interrupts=9686465, soft_interrupts=7688362, syscalls=0)
+2016-10-14 02:53:16,202 all          INFO     Virtual memory = svmem(total=16783757312, available=11924545536, percent=29.0, used=16612884480, free=170872832, active=8821264384, inactive=7138684928, buffers=109027328, cached=11644645376, shared=9449472)
+2016-10-14 02:53:16,202 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:17,203 all          INFO     CPU usage = 7.1
+2016-10-14 02:53:17,203 all          INFO     CPU stats = scpustats(ctx_switches=20693314, interrupts=9689406, soft_interrupts=7689600, syscalls=0)
+2016-10-14 02:53:17,203 all          INFO     Virtual memory = svmem(total=16783757312, available=11922898944, percent=29.0, used=16616448000, free=167309312, active=8826146816, inactive=7139860480, buffers=109027328, cached=11646562304, shared=9449472)
+2016-10-14 02:53:17,204 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:18,205 all          INFO     CPU usage = 9.5
+2016-10-14 02:53:18,205 all          INFO     CPU stats = scpustats(ctx_switches=20697715, interrupts=9691354, soft_interrupts=7690682, syscalls=0)
+2016-10-14 02:53:18,205 all          INFO     Virtual memory = svmem(total=16783757312, available=11922112512, percent=29.0, used=16621019136, free=162738176, active=8827768832, inactive=7142797312, buffers=109027328, cached=11650347008, shared=9449472)
+2016-10-14 02:53:18,205 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:19,207 all          INFO     CPU usage = 5.5
+2016-10-14 02:53:19,207 all          INFO     CPU stats = scpustats(ctx_switches=20702018, interrupts=9693335, soft_interrupts=7691624, syscalls=0)
+2016-10-14 02:53:19,207 all          INFO     Virtual memory = svmem(total=16783757312, available=11922411520, percent=29.0, used=16622796800, free=160960512, active=8828825600, inactive=7143432192, buffers=109027328, cached=11652423680, shared=9449472)
+2016-10-14 02:53:19,207 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:20,208 all          INFO     CPU usage = 6.6
+2016-10-14 02:53:20,208 all          INFO     CPU stats = scpustats(ctx_switches=20706622, interrupts=9695423, soft_interrupts=7692705, syscalls=0)
+2016-10-14 02:53:20,208 all          INFO     Virtual memory = svmem(total=16783757312, available=11921350656, percent=29.0, used=16625590272, free=158167040, active=8829673472, inactive=7145295872, buffers=109027328, cached=11654156288, shared=9449472)
+2016-10-14 02:53:20,208 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:21,210 all          INFO     CPU usage = 7.3
+2016-10-14 02:53:21,210 all          INFO     CPU stats = scpustats(ctx_switches=20712027, interrupts=9697947, soft_interrupts=7693835, syscalls=0)
+2016-10-14 02:53:21,210 all          INFO     Virtual memory = svmem(total=16783757312, available=11921211392, percent=29.0, used=16627748864, free=156008448, active=8831270912, inactive=7146631168, buffers=109027328, cached=11656175616, shared=9449472)
+2016-10-14 02:53:21,210 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:22,211 all          INFO     CPU usage = 6.9
+2016-10-14 02:53:22,212 all          INFO     CPU stats = scpustats(ctx_switches=20716751, interrupts=9700141, soft_interrupts=7695081, syscalls=0)
+2016-10-14 02:53:22,212 all          INFO     Virtual memory = svmem(total=16783757312, available=11920228352, percent=29.0, used=16599166976, free=184590336, active=8824410112, inactive=7124185088, buffers=109027328, cached=11626610688, shared=9449472)
+2016-10-14 02:53:22,212 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:23,213 all          INFO     CPU usage = 7.4
+2016-10-14 02:53:23,213 all          INFO     CPU stats = scpustats(ctx_switches=20722269, interrupts=9702688, soft_interrupts=7696363, syscalls=0)
+2016-10-14 02:53:23,213 all          INFO     Virtual memory = svmem(total=16783757312, available=11920322560, percent=29.0, used=16600956928, free=182800384, active=8825294848, inactive=7125954560, buffers=109035520, cached=11628486656, shared=9449472)
+2016-10-14 02:53:23,213 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:24,215 all          INFO     CPU usage = 4.6
+2016-10-14 02:53:24,215 all          INFO     CPU stats = scpustats(ctx_switches=20726274, interrupts=9704564, soft_interrupts=7697241, syscalls=0)
+2016-10-14 02:53:24,215 all          INFO     Virtual memory = svmem(total=16783757312, available=11919073280, percent=29.0, used=16603623424, free=180133888, active=8826613760, inactive=7127867392, buffers=109035520, cached=11629903872, shared=9449472)
+2016-10-14 02:53:24,215 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:25,216 all          INFO     CPU usage = 5.7
+2016-10-14 02:53:25,217 all          INFO     CPU stats = scpustats(ctx_switches=20731182, interrupts=9706848, soft_interrupts=7698300, syscalls=0)
+2016-10-14 02:53:25,217 all          INFO     Virtual memory = svmem(total=16783757312, available=11918364672, percent=29.0, used=16605908992, free=177848320, active=8827441152, inactive=7128928256, buffers=109035520, cached=11631480832, shared=9449472)
+2016-10-14 02:53:25,217 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:26,217 all          INFO     CPU usage = 14.6
+2016-10-14 02:53:26,218 all          INFO     CPU stats = scpustats(ctx_switches=20736584, interrupts=9709907, soft_interrupts=7699680, syscalls=0)
+2016-10-14 02:53:26,218 all          INFO     Virtual memory = svmem(total=16783757312, available=11917008896, percent=29.0, used=16612069376, free=171687936, active=8832651264, inactive=7129227264, buffers=109047808, cached=11636273152, shared=9449472)
+2016-10-14 02:53:26,218 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:27,219 all          INFO     CPU usage = 7.6
+2016-10-14 02:53:27,219 all          INFO     CPU stats = scpustats(ctx_switches=20741986, interrupts=9712383, soft_interrupts=7700883, syscalls=0)
+2016-10-14 02:53:27,220 all          INFO     Virtual memory = svmem(total=16783757312, available=11916513280, percent=29.0, used=16617693184, free=166064128, active=8835219456, inactive=7133712384, buffers=109047808, cached=11641401344, shared=9449472)
+2016-10-14 02:53:27,220 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:28,221 all          INFO     CPU usage = 10.0
+2016-10-14 02:53:28,221 all          INFO     CPU stats = scpustats(ctx_switches=20746609, interrupts=9714432, soft_interrupts=7701939, syscalls=0)
+2016-10-14 02:53:28,221 all          INFO     Virtual memory = svmem(total=16783757312, available=11916136448, percent=29.0, used=16622645248, free=161112064, active=8836296704, inactive=7137689600, buffers=109051904, cached=11645972480, shared=9449472)
+2016-10-14 02:53:28,222 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:29,223 all          INFO     CPU usage = 10.9
+2016-10-14 02:53:29,223 all          INFO     CPU stats = scpustats(ctx_switches=20752049, interrupts=9717035, soft_interrupts=7703347, syscalls=0)
+2016-10-14 02:53:29,223 all          INFO     Virtual memory = svmem(total=16783757312, available=11914637312, percent=29.0, used=16626581504, free=157175808, active=8838086656, inactive=7139651584, buffers=109051904, cached=11648409600, shared=9449472)
+2016-10-14 02:53:29,223 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:30,224 all          INFO     CPU usage = 7.0
+2016-10-14 02:53:30,224 all          INFO     CPU stats = scpustats(ctx_switches=20756714, interrupts=9719231, soft_interrupts=7704437, syscalls=0)
+2016-10-14 02:53:30,224 all          INFO     Virtual memory = svmem(total=16783757312, available=11913547776, percent=29.0, used=16629628928, free=154128384, active=8839380992, inactive=7141453824, buffers=109051904, cached=11650367488, shared=9449472)
+2016-10-14 02:53:30,224 all          INFO     Swap memory = sswap(total=17137922048, used=659456, free=17137262592, percent=0.0, sin=827392, sout=5066752)
+2016-10-14 02:53:31,226 all          INFO     CPU usage = 11.7
+2016-10-14 02:53:31,226 all          INFO     CPU stats = scpustats(ctx_switches=20761138, interrupts=9721434, soft_interrupts=7705445, syscalls=0)
+2016-10-14 02:53:31,226 all          INFO     Virtual memory = svmem(total=16783757312, available=11912138752, percent=29.0, used=16595218432, free=188538880, active=8828682240, inactive=7116820480, buffers=109051904, cached=11614547968, shared=9449472)
+2016-10-14 02:53:31,226 all          INFO     Swap memory = sswap(total=17137922048, used=679936, free=17137242112, percent=0.0, sin=827392, sout=5087232)
+2016-10-14 02:53:32,227 all          INFO     CPU usage = 4.1
+2016-10-14 02:53:32,227 all          INFO     CPU stats = scpustats(ctx_switches=20765943, interrupts=9723642, soft_interrupts=7706314, syscalls=0)
+2016-10-14 02:53:32,228 all          INFO     Virtual memory = svmem(total=16783757312, available=11911602176, percent=29.0, used=16596963328, free=186793984, active=8829501440, inactive=7117975552, buffers=109051904, cached=11615756288, shared=9449472)
+2016-10-14 02:53:32,228 all          INFO     Swap memory = sswap(total=17137922048, used=679936, free=17137242112, percent=0.0, sin=827392, sout=5087232)
+2016-10-14 02:53:33,229 all          INFO     CPU usage = 6.6
+2016-10-14 02:53:33,229 all          INFO     CPU stats = scpustats(ctx_switches=20771480, interrupts=9726269, soft_interrupts=7707494, syscalls=0)
+2016-10-14 02:53:33,229 all          INFO     Virtual memory = svmem(total=16783757312, available=11911421952, percent=29.0, used=16598614016, free=185143296, active=8830472192, inactive=7118950400, buffers=109051904, cached=11617226752, shared=9449472)
+2016-10-14 02:53:33,229 all          INFO     Swap memory = sswap(total=17137922048, used=679936, free=17137242112, percent=0.0, sin=827392, sout=5087232)
+2016-10-14 02:53:34,231 all          INFO     CPU usage = 7.5
+2016-10-14 02:53:34,231 all          INFO     CPU stats = scpustats(ctx_switches=20775974, interrupts=9728370, soft_interrupts=7708561, syscalls=0)
+2016-10-14 02:53:34,231 all          INFO     Virtual memory = svmem(total=16783757312, available=11909963776, percent=29.0, used=16601661440, free=182095872, active=8832262144, inactive=7119798272, buffers=109051904, cached=11618816000, shared=9449472)
+2016-10-14 02:53:34,231 all          INFO     Swap memory = sswap(total=17137922048, used=679936, free=17137242112, percent=0.0, sin=827392, sout=5087232)
+2016-10-14 02:53:35,232 all          INFO     CPU usage = 7.0
+2016-10-14 02:53:35,232 all          INFO     CPU stats = scpustats(ctx_switches=20780402, interrupts=9730431, soft_interrupts=7709614, syscalls=0)
+2016-10-14 02:53:35,233 all          INFO     Virtual memory = svmem(total=16783757312, available=11909001216, percent=29.0, used=16605470720, free=178286592, active=8833703936, inactive=7122374656, buffers=109051904, cached=11621662720, shared=9449472)
+2016-10-14 02:53:35,233 all          INFO     Swap memory = sswap(total=17137922048, used=679936, free=17137242112, percent=0.0, sin=827392, sout=5087232)
+2016-10-14 02:53:36,234 all          INFO     CPU usage = 12.3
+2016-10-14 02:53:36,234 all          INFO     CPU stats = scpustats(ctx_switches=20785224, interrupts=9733069, soft_interrupts=7710748, syscalls=0)
+2016-10-14 02:53:36,234 all          INFO     Virtual memory = svmem(total=16783757312, available=11869388800, percent=29.3, used=16612618240, free=171139072, active=8863567872, inactive=7095418880, buffers=109056000, cached=11589193728, shared=9449472)
+2016-10-14 02:53:36,234 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:37,236 all          INFO     CPU usage = 7.0
+2016-10-14 02:53:37,236 all          INFO     CPU stats = scpustats(ctx_switches=20790849, interrupts=9735704, soft_interrupts=7711952, syscalls=0)
+2016-10-14 02:53:37,236 all          INFO     Virtual memory = svmem(total=16783757312, available=11869093888, percent=29.3, used=16607641600, free=176115712, active=8864083968, inactive=7093055488, buffers=109056000, cached=11583922176, shared=9449472)
+2016-10-14 02:53:37,236 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:38,237 all          INFO     CPU usage = 5.9
+2016-10-14 02:53:38,238 all          INFO     CPU stats = scpustats(ctx_switches=20795642, interrupts=9737901, soft_interrupts=7713007, syscalls=0)
+2016-10-14 02:53:38,238 all          INFO     Virtual memory = svmem(total=16783757312, available=11869143040, percent=29.3, used=16609800192, free=173957120, active=8864817152, inactive=7094587392, buffers=109056000, cached=11586129920, shared=9449472)
+2016-10-14 02:53:38,238 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:39,239 all          INFO     CPU usage = 5.7
+2016-10-14 02:53:39,239 all          INFO     CPU stats = scpustats(ctx_switches=20800601, interrupts=9740166, soft_interrupts=7714072, syscalls=0)
+2016-10-14 02:53:39,239 all          INFO     Virtual memory = svmem(total=16783757312, available=11869425664, percent=29.3, used=16611323904, free=172433408, active=8864993280, inactive=7096115200, buffers=109056000, cached=11587936256, shared=9449472)
+2016-10-14 02:53:39,239 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:40,241 all          INFO     CPU usage = 15.2
+2016-10-14 02:53:40,241 all          INFO     CPU stats = scpustats(ctx_switches=20806421, interrupts=9743022, soft_interrupts=7715640, syscalls=0)
+2016-10-14 02:53:40,241 all          INFO     Virtual memory = svmem(total=16783757312, available=11870515200, percent=29.3, used=16613609472, free=170147840, active=8864321536, inactive=7098515456, buffers=109056000, cached=11591311360, shared=9449472)
+2016-10-14 02:53:40,241 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:41,242 all          INFO     CPU usage = 8.3
+2016-10-14 02:53:41,242 all          INFO     CPU stats = scpustats(ctx_switches=20811492, interrupts=9745359, soft_interrupts=7716786, syscalls=0)
+2016-10-14 02:53:41,242 all          INFO     Virtual memory = svmem(total=16783757312, available=11871932416, percent=29.3, used=16615514112, free=168243200, active=8864382976, inactive=7100473344, buffers=109056000, cached=11594633216, shared=9449472)
+2016-10-14 02:53:41,243 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:42,244 all          INFO     CPU usage = 6.7
+2016-10-14 02:53:42,244 all          INFO     CPU stats = scpustats(ctx_switches=20817352, interrupts=9748067, soft_interrupts=7718024, syscalls=0)
+2016-10-14 02:53:42,245 all          INFO     Virtual memory = svmem(total=16783757312, available=11871268864, percent=29.3, used=16617164800, free=166592512, active=8865173504, inactive=7102070784, buffers=109056000, cached=11595620352, shared=9449472)
+2016-10-14 02:53:42,245 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:43,246 all          INFO     CPU usage = 8.0
+2016-10-14 02:53:43,247 all          INFO     CPU stats = scpustats(ctx_switches=20822683, interrupts=9750515, soft_interrupts=7719227, syscalls=0)
+2016-10-14 02:53:43,247 all          INFO     Virtual memory = svmem(total=16783757312, available=11872342016, percent=29.3, used=16620085248, free=163672064, active=8866308096, inactive=7105028096, buffers=109056000, cached=11599613952, shared=9449472)
+2016-10-14 02:53:43,247 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:44,248 all          INFO     CPU usage = 9.3
+2016-10-14 02:53:44,248 all          INFO     CPU stats = scpustats(ctx_switches=20828641, interrupts=9753292, soft_interrupts=7720542, syscalls=0)
+2016-10-14 02:53:44,248 all          INFO     Virtual memory = svmem(total=16783757312, available=11872374784, percent=29.3, used=16623132672, free=160624640, active=8866840576, inactive=7107108864, buffers=109056000, cached=11602694144, shared=9449472)
+2016-10-14 02:53:44,248 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:45,250 all          INFO     CPU usage = 9.5
+2016-10-14 02:53:45,250 all          INFO     CPU stats = scpustats(ctx_switches=20833517, interrupts=9755577, soft_interrupts=7721779, syscalls=0)
+2016-10-14 02:53:45,250 all          INFO     Virtual memory = svmem(total=16783757312, available=11872555008, percent=29.3, used=16624783360, free=158973952, active=8867446784, inactive=7108644864, buffers=109056000, cached=11604525056, shared=9449472)
+2016-10-14 02:53:45,250 all          INFO     Swap memory = sswap(total=17137922048, used=696320, free=17137225728, percent=0.0, sin=827392, sout=5103616)
+2016-10-14 02:53:46,251 all          INFO     CPU usage = 11.5
+2016-10-14 02:53:46,251 all          INFO     CPU stats = scpustats(ctx_switches=20839158, interrupts=9759378, soft_interrupts=7723179, syscalls=0)
+2016-10-14 02:53:46,252 all          INFO     Virtual memory = svmem(total=16783757312, available=11812474880, percent=29.6, used=16587997184, free=195760128, active=8907284480, inactive=7033282560, buffers=108879872, cached=11507834880, shared=9449472)
+2016-10-14 02:53:46,252 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:47,253 all          INFO     CPU usage = 6.4
+2016-10-14 02:53:47,253 all          INFO     CPU stats = scpustats(ctx_switches=20843424, interrupts=9761375, soft_interrupts=7724153, syscalls=0)
+2016-10-14 02:53:47,253 all          INFO     Virtual memory = svmem(total=16783757312, available=11813740544, percent=29.6, used=16588050432, free=195706880, active=8907563008, inactive=7033958400, buffers=108879872, cached=11509153792, shared=9449472)
+2016-10-14 02:53:47,253 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:48,254 all          INFO     CPU usage = 9.5
+2016-10-14 02:53:48,254 all          INFO     CPU stats = scpustats(ctx_switches=20848438, interrupts=9763722, soft_interrupts=7725362, syscalls=0)
+2016-10-14 02:53:48,254 all          INFO     Virtual memory = svmem(total=16783757312, available=11813511168, percent=29.6, used=16590970880, free=192786432, active=8907857920, inactive=7036547072, buffers=108879872, cached=11511844864, shared=9449472)
+2016-10-14 02:53:48,254 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:49,256 all          INFO     CPU usage = 9.6
+2016-10-14 02:53:49,256 all          INFO     CPU stats = scpustats(ctx_switches=20853560, interrupts=9766076, soft_interrupts=7726558, syscalls=0)
+2016-10-14 02:53:49,257 all          INFO     Virtual memory = svmem(total=16783757312, available=11813486592, percent=29.6, used=16595288064, free=188469248, active=8908587008, inactive=7039782912, buffers=108879872, cached=11516137472, shared=9449472)
+2016-10-14 02:53:49,257 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:50,258 all          INFO     CPU usage = 10.9
+2016-10-14 02:53:50,259 all          INFO     CPU stats = scpustats(ctx_switches=20859986, interrupts=9768945, soft_interrupts=7728088, syscalls=0)
+2016-10-14 02:53:50,259 all          INFO     Virtual memory = svmem(total=16783757312, available=11815084032, percent=29.6, used=16599654400, free=184102912, active=8907206656, inactive=7043829760, buffers=108879872, cached=11522101248, shared=9449472)
+2016-10-14 02:53:50,259 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:51,260 all          INFO     CPU usage = 5.0
+2016-10-14 02:53:51,261 all          INFO     CPU stats = scpustats(ctx_switches=20862703, interrupts=9770238, soft_interrupts=7728796, syscalls=0)
+2016-10-14 02:53:51,261 all          INFO     Virtual memory = svmem(total=16783757312, available=11815563264, percent=29.6, used=16600670208, free=183087104, active=8907407360, inactive=7044632576, buffers=108879872, cached=11523596288, shared=9449472)
+2016-10-14 02:53:51,262 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:52,263 all          INFO     CPU usage = 6.6
+2016-10-14 02:53:52,263 all          INFO     CPU stats = scpustats(ctx_switches=20867428, interrupts=9772515, soft_interrupts=7729800, syscalls=0)
+2016-10-14 02:53:52,263 all          INFO     Virtual memory = svmem(total=16783757312, available=11814699008, percent=29.6, used=16602447872, free=181309440, active=8908021760, inactive=7045623808, buffers=108879872, cached=11524509696, shared=9449472)
+2016-10-14 02:53:52,264 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:53,265 all          INFO     CPU usage = 9.4
+2016-10-14 02:53:53,265 all          INFO     CPU stats = scpustats(ctx_switches=20873402, interrupts=9775270, soft_interrupts=7730963, syscalls=0)
+2016-10-14 02:53:53,265 all          INFO     Virtual memory = svmem(total=16783757312, available=11814567936, percent=29.6, used=16603557888, free=180199424, active=8908390400, inactive=7046750208, buffers=108879872, cached=11525488640, shared=9449472)
+2016-10-14 02:53:53,265 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:54,266 all          INFO     CPU usage = 10.9
+2016-10-14 02:53:54,267 all          INFO     CPU stats = scpustats(ctx_switches=20879111, interrupts=9777895, soft_interrupts=7732267, syscalls=0)
+2016-10-14 02:53:54,267 all          INFO     Virtual memory = svmem(total=16783757312, available=11815755776, percent=29.6, used=16605843456, free=177913856, active=8908898304, inactive=7049375744, buffers=108883968, cached=11528957952, shared=9449472)
+2016-10-14 02:53:54,267 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:55,268 all          INFO     CPU usage = 5.6
+2016-10-14 02:53:55,268 all          INFO     CPU stats = scpustats(ctx_switches=20884943, interrupts=9780594, soft_interrupts=7733403, syscalls=0)
+2016-10-14 02:53:55,268 all          INFO     Virtual memory = svmem(total=16783757312, available=11814838272, percent=29.6, used=16609730560, free=174026752, active=8909619200, inactive=7052001280, buffers=108883968, cached=11531927552, shared=9449472)
+2016-10-14 02:53:55,268 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:56,270 all          INFO     CPU usage = 14.0
+2016-10-14 02:53:56,270 all          INFO     CPU stats = scpustats(ctx_switches=20890824, interrupts=9783289, soft_interrupts=7734829, syscalls=0)
+2016-10-14 02:53:56,270 all          INFO     Virtual memory = svmem(total=16783757312, available=11814809600, percent=29.6, used=16608235520, free=175521792, active=8909811712, inactive=7050547200, buffers=108888064, cached=11530399744, shared=9449472)
+2016-10-14 02:53:56,270 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:57,271 all          INFO     CPU usage = 10.0
+2016-10-14 02:53:57,272 all          INFO     CPU stats = scpustats(ctx_switches=20895945, interrupts=9785665, soft_interrupts=7736035, syscalls=0)
+2016-10-14 02:53:57,272 all          INFO     Virtual memory = svmem(total=16783757312, available=11816349696, percent=29.6, used=16607952896, free=175804416, active=8909934592, inactive=7051223040, buffers=108892160, cached=11531653120, shared=9449472)
+2016-10-14 02:53:57,272 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:58,273 all          INFO     CPU usage = 14.5
+2016-10-14 02:53:58,273 all          INFO     CPU stats = scpustats(ctx_switches=20902020, interrupts=9788564, soft_interrupts=7737621, syscalls=0)
+2016-10-14 02:53:58,273 all          INFO     Virtual memory = svmem(total=16783757312, available=11815620608, percent=29.6, used=16612777984, free=170979328, active=8910491648, inactive=7054745600, buffers=108892160, cached=11535749120, shared=9449472)
+2016-10-14 02:53:58,273 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:53:59,275 all          INFO     CPU usage = 8.3
+2016-10-14 02:53:59,275 all          INFO     CPU stats = scpustats(ctx_switches=20907373, interrupts=9791088, soft_interrupts=7738744, syscalls=0)
+2016-10-14 02:53:59,275 all          INFO     Virtual memory = svmem(total=16783757312, available=11815358464, percent=29.6, used=16616460288, free=167297024, active=8911241216, inactive=7057522688, buffers=108892160, cached=11539169280, shared=9449472)
+2016-10-14 02:53:59,275 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:54:00,276 all          INFO     CPU usage = 7.7
+2016-10-14 02:54:00,276 all          INFO     CPU stats = scpustats(ctx_switches=20912977, interrupts=9793686, soft_interrupts=7739963, syscalls=0)
+2016-10-14 02:54:00,277 all          INFO     Virtual memory = svmem(total=16783757312, available=11815354368, percent=29.6, used=16618999808, free=164757504, active=8911618048, inactive=7059808256, buffers=108892160, cached=11541704704, shared=9449472)
+2016-10-14 02:54:00,277 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:54:01,278 all          INFO     CPU usage = 10.6
+2016-10-14 02:54:01,278 all          INFO     CPU stats = scpustats(ctx_switches=20917342, interrupts=9795665, soft_interrupts=7741026, syscalls=0)
+2016-10-14 02:54:01,278 all          INFO     Virtual memory = svmem(total=16783757312, available=11815305216, percent=29.6, used=16623697920, free=160059392, active=8912949248, inactive=7062962176, buffers=108896256, cached=11546349568, shared=9449472)
+2016-10-14 02:54:01,278 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:54:02,280 all          INFO     CPU usage = 7.4
+2016-10-14 02:54:02,280 all          INFO     CPU stats = scpustats(ctx_switches=20922273, interrupts=9797872, soft_interrupts=7742185, syscalls=0)
+2016-10-14 02:54:02,280 all          INFO     Virtual memory = svmem(total=16783757312, available=11815309312, percent=29.6, used=16626872320, free=156884992, active=8913854464, inactive=7065268224, buffers=108896256, cached=11549528064, shared=9449472)
+2016-10-14 02:54:02,280 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:54:03,281 all          INFO     CPU usage = 6.0
+2016-10-14 02:54:03,281 all          INFO     CPU stats = scpustats(ctx_switches=20928519, interrupts=9800717, soft_interrupts=7743566, syscalls=0)
+2016-10-14 02:54:03,282 all          INFO     Virtual memory = svmem(total=16783757312, available=11815464960, percent=29.6, used=16628523008, free=155234304, active=8914182144, inactive=7066238976, buffers=108896256, cached=11551334400, shared=9449472)
+2016-10-14 02:54:03,282 all          INFO     Swap memory = sswap(total=17137922048, used=737280, free=17137184768, percent=0.0, sin=827392, sout=5144576)
+2016-10-14 02:54:04,283 all          INFO     CPU usage = 9.3
+2016-10-14 02:54:04,283 all          INFO     CPU stats = scpustats(ctx_switches=20933748, interrupts=9803207, soft_interrupts=7744857, syscalls=0)
+2016-10-14 02:54:04,283 all          INFO     Virtual memory = svmem(total=16783757312, available=11806806016, percent=29.7, used=16606883840, free=176873472, active=8912642048, inactive=7044775936, buffers=108896256, cached=11521036288, shared=9449472)
+2016-10-14 02:54:04,283 all          INFO     Swap memory = sswap(total=17137922048, used=745472, free=17137176576, percent=0.0, sin=827392, sout=5152768)
+2016-10-14 02:54:05,285 all          INFO     CPU usage = 10.0
+2016-10-14 02:54:05,285 all          INFO     CPU stats = scpustats(ctx_switches=20939110, interrupts=9805742, soft_interrupts=7746175, syscalls=0)
+2016-10-14 02:54:05,285 all          INFO     Virtual memory = svmem(total=16783757312, available=11807477760, percent=29.6, used=16608333824, free=175423488, active=8913268736, inactive=7046434816, buffers=108896256, cached=11523158016, shared=9449472)
+2016-10-14 02:54:05,285 all          INFO     Swap memory = sswap(total=17137922048, used=745472, free=17137176576, percent=0.0, sin=827392, sout=5152768)
+2016-10-14 02:54:06,286 all          INFO     CPU usage = 9.6
+2016-10-14 02:54:06,286 all          INFO     CPU stats = scpustats(ctx_switches=20945407, interrupts=9808747, soft_interrupts=7747546, syscalls=0)
+2016-10-14 02:54:06,286 all          INFO     Virtual memory = svmem(total=16783757312, available=11806752768, percent=29.7, used=16612016128, free=171741184, active=8914309120, inactive=7048437760, buffers=108900352, cached=11526111232, shared=9449472)
+2016-10-14 02:54:06,287 all          INFO     Swap memory = sswap(total=17137922048, used=745472, free=17137176576, percent=0.0, sin=827392, sout=5152768)
+2016-10-14 02:54:07,288 all          INFO     CPU usage = 5.0
+2016-10-14 02:54:07,288 all          INFO     CPU stats = scpustats(ctx_switches=20948496, interrupts=9810254, soft_interrupts=7748294, syscalls=0)
+2016-10-14 02:54:07,288 all          INFO     Virtual memory = svmem(total=16783757312, available=11797143552, percent=29.7, used=16622428160, free=161329152, active=8923963392, inactive=7049162752, buffers=108900352, cached=11526914048, shared=9449472)
+2016-10-14 02:54:07,288 all          INFO     Swap memory = sswap(total=17137922048, used=745472, free=17137176576, percent=0.0, sin=827392, sout=5152768)
+2016-10-14 02:54:08,290 all          INFO     CPU usage = 3.9
+2016-10-14 02:54:08,290 all          INFO     CPU stats = scpustats(ctx_switches=20951983, interrupts=9811897, soft_interrupts=7749085, syscalls=0)
+2016-10-14 02:54:08,291 all          INFO     Virtual memory = svmem(total=16783757312, available=11797192704, percent=29.7, used=16623570944, free=160186368, active=8924229632, inactive=7049428992, buffers=108900352, cached=11528105984, shared=9449472)
+2016-10-14 02:54:08,291 all          INFO     Swap memory = sswap(total=17137922048, used=745472, free=17137176576, percent=0.0, sin=827392, sout=5152768)
+2016-10-14 02:54:09,292 all          INFO     CPU usage = 11.7
+2016-10-14 02:54:09,293 all          INFO     CPU stats = scpustats(ctx_switches=20957523, interrupts=9814473, soft_interrupts=7750425, syscalls=0)
+2016-10-14 02:54:09,293 all          INFO     Virtual memory = svmem(total=16783757312, available=11792842752, percent=29.7, used=16601382912, free=182374400, active=8919879680, inactive=7031046144, buffers=108900352, cached=11501568000, shared=9449472)
+2016-10-14 02:54:09,293 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:10,294 all          INFO     CPU usage = 8.6
+2016-10-14 02:54:10,294 all          INFO     CPU stats = scpustats(ctx_switches=20961739, interrupts=9816516, soft_interrupts=7751514, syscalls=0)
+2016-10-14 02:54:10,294 all          INFO     Virtual memory = svmem(total=16783757312, available=11792228352, percent=29.7, used=16602730496, free=181026816, active=8920092672, inactive=7032213504, buffers=108900352, cached=11502301184, shared=9449472)
+2016-10-14 02:54:10,294 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:11,296 all          INFO     CPU usage = 13.3
+2016-10-14 02:54:11,296 all          INFO     CPU stats = scpustats(ctx_switches=20967579, interrupts=9819277, soft_interrupts=7752925, syscalls=0)
+2016-10-14 02:54:11,296 all          INFO     Virtual memory = svmem(total=16783757312, available=11793182720, percent=29.7, used=16605016064, free=178741248, active=8921014272, inactive=7034445824, buffers=108900352, cached=11505541120, shared=9449472)
+2016-10-14 02:54:11,296 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:12,297 all          INFO     CPU usage = 5.1
+2016-10-14 02:54:12,297 all          INFO     CPU stats = scpustats(ctx_switches=20972998, interrupts=9821767, soft_interrupts=7753967, syscalls=0)
+2016-10-14 02:54:12,297 all          INFO     Virtual memory = svmem(total=16783757312, available=11793485824, percent=29.7, used=16607412224, free=176345088, active=8921677824, inactive=7035740160, buffers=108900352, cached=11508240384, shared=9449472)
+2016-10-14 02:54:12,298 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:13,299 all          INFO     CPU usage = 10.6
+2016-10-14 02:54:13,299 all          INFO     CPU stats = scpustats(ctx_switches=20976914, interrupts=9823684, soft_interrupts=7755157, syscalls=0)
+2016-10-14 02:54:13,299 all          INFO     Virtual memory = svmem(total=16783757312, available=11793555456, percent=29.7, used=16608710656, free=175046656, active=8921587712, inactive=7037485056, buffers=108900352, cached=11509608448, shared=9449472)
+2016-10-14 02:54:13,299 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:14,300 all          INFO     CPU usage = 7.2
+2016-10-14 02:54:14,301 all          INFO     CPU stats = scpustats(ctx_switches=20981864, interrupts=9825911, soft_interrupts=7756297, syscalls=0)
+2016-10-14 02:54:14,301 all          INFO     Virtual memory = svmem(total=16783757312, available=11794587648, percent=29.7, used=16611962880, free=171794432, active=8921935872, inactive=7040700416, buffers=108900352, cached=11513892864, shared=9449472)
+2016-10-14 02:54:14,301 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:15,302 all          INFO     CPU usage = 7.3
+2016-10-14 02:54:15,302 all          INFO     CPU stats = scpustats(ctx_switches=20986661, interrupts=9828197, soft_interrupts=7757564, syscalls=0)
+2016-10-14 02:54:15,302 all          INFO     Virtual memory = svmem(total=16783757312, available=11794444288, percent=29.7, used=16614735872, free=169021440, active=8921509888, inactive=7043170304, buffers=108900352, cached=11516522496, shared=9449472)
+2016-10-14 02:54:15,302 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:16,303 all          INFO     CPU usage = 9.9
+2016-10-14 02:54:16,303 all          INFO     CPU stats = scpustats(ctx_switches=20993038, interrupts=9831205, soft_interrupts=7759264, syscalls=0)
+2016-10-14 02:54:16,304 all          INFO     Virtual memory = svmem(total=16783757312, available=11796774912, percent=29.7, used=16616488960, free=167268352, active=8920641536, inactive=7045980160, buffers=108904448, cached=11520602112, shared=9449472)
+2016-10-14 02:54:16,304 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=827392, sout=5160960)
+2016-10-14 02:54:17,305 all          INFO     CPU usage = 1.3
+2016-10-14 02:54:17,306 all          INFO     CPU stats = scpustats(ctx_switches=20994470, interrupts=9831886, soft_interrupts=7759879, syscalls=0)
+2016-10-14 02:54:17,306 all          INFO     Virtual memory = svmem(total=16783757312, available=11842523136, percent=29.4, used=16570765312, free=212992000, active=8875671552, inactive=7045980160, buffers=108904448, cached=11520626688, shared=9449472)
+2016-10-14 02:54:17,307 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=897024, sout=5160960)
+2016-10-14 02:54:18,308 all          INFO     CPU usage = 0.0
+2016-10-14 02:54:18,309 all          INFO     CPU stats = scpustats(ctx_switches=20994833, interrupts=9832074, soft_interrupts=7760046, syscalls=0)
+2016-10-14 02:54:18,309 all          INFO     Virtual memory = svmem(total=16783757312, available=11842863104, percent=29.4, used=16570380288, free=213377024, active=8875528192, inactive=7045902336, buffers=108904448, cached=11520581632, shared=9449472)
+2016-10-14 02:54:18,310 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=897024, sout=5160960)
+2016-10-14 02:54:19,312 all          INFO     CPU usage = 0.1
+2016-10-14 02:54:19,312 all          INFO     CPU stats = scpustats(ctx_switches=20995173, interrupts=9832254, soft_interrupts=7760230, syscalls=0)
+2016-10-14 02:54:19,313 all          INFO     Virtual memory = svmem(total=16783757312, available=11842863104, percent=29.4, used=16570380288, free=213377024, active=8875528192, inactive=7045902336, buffers=108904448, cached=11520581632, shared=9449472)
+2016-10-14 02:54:19,313 all          INFO     Swap memory = sswap(total=17137922048, used=753664, free=17137168384, percent=0.0, sin=897024, sout=5160960)
+2016-10-14 02:54:20,314 all          INFO     CPU usage = 6.8
+2016-10-14 02:54:20,314 all          INFO     CPU stats = scpustats(ctx_switches=20998704, interrupts=9834252, soft_interrupts=7762173, syscalls=0)
+2016-10-14 02:54:20,314 all          INFO     Virtual memory = svmem(total=16783757312, available=12917710848, percent=23.0, used=15495589888, free=1288167424, active=7879163904, inactive=6972583936, buffers=108904448, cached=11520638976, shared=9449472)
+2016-10-14 02:54:20,314 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:21,316 all          INFO     CPU usage = 11.8
+2016-10-14 02:54:21,316 all          INFO     CPU stats = scpustats(ctx_switches=21000538, interrupts=9835136, soft_interrupts=7763781, syscalls=0)
+2016-10-14 02:54:21,317 all          INFO     Virtual memory = svmem(total=16783757312, available=12940660736, percent=22.9, used=15355998208, free=1427759104, active=7815151616, inactive=6915334144, buffers=108912640, cached=11403988992, shared=9379840)
+2016-10-14 02:54:21,317 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:22,319 all          INFO     CPU usage = 0.1
+2016-10-14 02:54:22,319 all          INFO     CPU stats = scpustats(ctx_switches=21000721, interrupts=9835252, soft_interrupts=7763909, syscalls=0)
+2016-10-14 02:54:22,320 all          INFO     Virtual memory = svmem(total=16783757312, available=12940660736, percent=22.9, used=15355998208, free=1427759104, active=7815151616, inactive=6915334144, buffers=108912640, cached=11403988992, shared=9379840)
+2016-10-14 02:54:22,320 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:23,322 all          INFO     CPU usage = 2.2
+2016-10-14 02:54:23,322 all          INFO     CPU stats = scpustats(ctx_switches=21000983, interrupts=9835375, soft_interrupts=7764041, syscalls=0)
+2016-10-14 02:54:23,323 all          INFO     Virtual memory = svmem(total=16783757312, available=12940836864, percent=22.9, used=15355998208, free=1427759104, active=7815192576, inactive=6915497984, buffers=108920832, cached=11404156928, shared=9379840)
+2016-10-14 02:54:23,323 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:24,325 all          INFO     CPU usage = 0.0
+2016-10-14 02:54:24,326 all          INFO     CPU stats = scpustats(ctx_switches=21001160, interrupts=9835484, soft_interrupts=7764175, syscalls=0)
+2016-10-14 02:54:24,326 all          INFO     Virtual memory = svmem(total=16783757312, available=12940836864, percent=22.9, used=15355998208, free=1427759104, active=7815192576, inactive=6915497984, buffers=108920832, cached=11404156928, shared=9379840)
+2016-10-14 02:54:24,327 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:25,328 all          INFO     CPU usage = 0.1
+2016-10-14 02:54:25,329 all          INFO     CPU stats = scpustats(ctx_switches=21001356, interrupts=9835608, soft_interrupts=7764337, syscalls=0)
+2016-10-14 02:54:25,329 all          INFO     Virtual memory = svmem(total=16783757312, available=12940836864, percent=22.9, used=15355998208, free=1427759104, active=7815192576, inactive=6915497984, buffers=108920832, cached=11404156928, shared=9379840)
+2016-10-14 02:54:25,330 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:26,331 all          INFO     CPU usage = 3.2
+2016-10-14 02:54:26,332 all          INFO     CPU stats = scpustats(ctx_switches=21001733, interrupts=9835764, soft_interrupts=7764514, syscalls=0)
+2016-10-14 02:54:26,332 all          INFO     Virtual memory = svmem(total=16783757312, available=12941086720, percent=22.9, used=15355822080, free=1427935232, active=7815131136, inactive=6915563520, buffers=108929024, cached=11404222464, shared=9379840)
+2016-10-14 02:54:26,333 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:27,335 all          INFO     CPU usage = 0.0
+2016-10-14 02:54:27,335 all          INFO     CPU stats = scpustats(ctx_switches=21001948, interrupts=9835892, soft_interrupts=7764691, syscalls=0)
+2016-10-14 02:54:27,336 all          INFO     Virtual memory = svmem(total=16783757312, available=12941086720, percent=22.9, used=15355822080, free=1427935232, active=7815131136, inactive=6915563520, buffers=108929024, cached=11404222464, shared=9379840)
+2016-10-14 02:54:27,336 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
+2016-10-14 02:54:28,338 all          INFO     CPU usage = 0.1
+2016-10-14 02:54:28,338 all          INFO     CPU stats = scpustats(ctx_switches=21002119, interrupts=9835997, soft_interrupts=7764802, syscalls=0)
+2016-10-14 02:54:28,339 all          INFO     Virtual memory = svmem(total=16783757312, available=12941086720, percent=22.9, used=15355822080, free=1427935232, active=7815131136, inactive=6915563520, buffers=108929024, cached=11404222464, shared=9379840)
+2016-10-14 02:54:28,339 all          INFO     Swap memory = sswap(total=17137922048, used=520192, free=17137401856, percent=0.0, sin=974848, sout=5160960)
