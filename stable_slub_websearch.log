@@ -946,3 +946,53 @@
 2016-10-14 12:51:26,519 all          INFO     CPU stats = scpustats(ctx_switches=43651794, interrupts=20353002, soft_interrupts=17605012, syscalls=0)
 2016-10-14 12:51:26,520 all          INFO     Virtual memory = svmem(total=16783757312, available=12734824448, percent=24.1, used=15344099328, free=1439657984, active=7963176960, inactive=6694338560, buffers=152821760, cached=11142344704, shared=9428992)
 2016-10-14 12:51:26,520 all          INFO     Swap memory = sswap(total=17137922048, used=5795840, free=17132126208, percent=0.0, sin=1974272, sout=16125952)
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/summary_report.xsl"?>
+<benchResults>
+    <benchSummary name="Sample Search Workload" version="0.3">
+        <runId>1</runId>
+        <startTime>Fri Oct 14 16:47:47 UTC 2016</startTime>
+        <endTime>Fri Oct 14 16:51:17 UTC 2016</endTime>
+        <metric unit="ops/sec">26.167</metric>
+        <passed>true</passed>
+    </benchSummary>
+    <driverSummary name="SearchDriver">
+        <metric unit="ops/sec">26.167</metric>
+        <startTime>Fri Oct 14 16:47:47 UTC 2016</startTime>
+        <endTime>Fri Oct 14 16:51:17 UTC 2016</endTime>
+        <totalOps unit="operations">1570</totalOps>
+        <users>50</users>
+        <rtXtps>47.0475</rtXtps>
+        <passed>true</passed>
+        <mix allowedDeviation="0.0000">
+            <operation name="GET">
+                <successes>1570</successes>
+                <failures>0</failures>
+                <mix>1.0000</mix>
+                <requiredMix>1.0000</requiredMix>
+                <passed>true</passed>
+            </operation>
+        </mix>
+        <responseTimes unit="seconds">
+            <operation name="GET" r90th="0.500">
+                <avg>0.021</avg>
+                <max>0.171</max>
+                <sd>0.021</sd>
+                <p90th>0.045</p90th>
+                <passed>true</passed>
+                <p99th>0.100</p99th>
+            </operation>
+        </responseTimes>
+        <delayTimes>
+            <operation name="GET" type="cycleTime">
+                <targetedAvg>1.858</targetedAvg>
+                <actualAvg>1.857</actualAvg>
+                <min>0.005</min>
+                <max>10.000</max>
+                <passed>true</passed>
+            </operation>
+        </delayTimes>
+    </driverSummary>
+</benchResults>
