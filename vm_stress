@@ -1,0 +1,139 @@
+							SLUB Allocator
+
+root@neeraj:~/stress-ng-0.03.11# ./stress-ng rand-sum --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief
+stress-ng: info: [8152] dispatching hogs: 16 vm
+stress-ng: info: [8152] successful run completed in 60.08s
+stress-ng: info: [8152] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8152]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8152] vm            15762944     60.02    446.46     29.10    262621.23     33146.07
+stress-ng: info: [8186] dispatching hogs: 16 vm
+stress-ng: info: [8186] successful run completed in 60.07s
+stress-ng: info: [8186] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8186]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8186] vm            13485312     60.02    434.61     23.03    224666.33     29467.07
+stress-ng: info: [8219] dispatching hogs: 16 vm
+stress-ng: info: [8219] successful run completed in 60.08s
+stress-ng: info: [8219] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8219]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8219] vm            13477120     60.03    448.34     25.35    224521.21     28451.35
+stress-ng: info: [8252] dispatching hogs: 16 vm
+stress-ng: info: [8252] successful run completed in 60.08s
+stress-ng: info: [8252] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8252]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8252] vm             8544512     60.04    122.43      7.67    142314.98     65676.50
+stress-ng: info: [8285] dispatching hogs: 16 vm
+stress-ng: info: [8285] successful run completed in 60.28s
+stress-ng: info: [8285] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8285]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8285] vm            14513536     60.03    448.40     27.48    241762.90     30498.31
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11# ./stress-ng rand-sum --cpu 4 --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief; ./stress-ng rand-sum --cpu 4 --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --cpu 4 --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --cpu 4 --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief;./stress-ng rand-sum --cpu 4 --vm 16 --vm-bytes 1073741824 --timeout 60s --metrics-brief
+stress-ng: info: [8337] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8337] successful run completed in 60.10s
+stress-ng: info: [8337] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8337]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8337] cpu              33674     60.02    203.00      0.49       561.03       165.48
+stress-ng: info: [8337] vm             8053504     60.04    256.47     14.82    134137.71     29685.96
+stress-ng: info: [8374] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8374] successful run completed in 60.10s
+stress-ng: info: [8374] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8374]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8374] cpu              36643     60.06    217.42      0.31       610.13       168.30
+stress-ng: info: [8374] vm             6664832     60.05    230.76     12.28    110989.20     27422.78
+stress-ng: info: [8412] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8412] successful run completed in 60.09s
+stress-ng: info: [8412] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8412]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8412] cpu              41416     60.01    218.23      0.15       690.14       189.65
+stress-ng: info: [8412] vm             4166016     60.04    169.12      8.76     69393.06     23420.37
+stress-ng: info: [8449] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8449] successful run completed in 60.07s
+stress-ng: info: [8449] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8449]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8449] cpu              40822     60.02    232.36      0.30       680.19       175.46
+stress-ng: info: [8449] vm             5554688     60.01    205.25      9.84     92561.93     25824.95
+stress-ng: info: [8486] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8486] successful run completed in 60.08s
+stress-ng: info: [8486] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8486]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8486] cpu              39918     60.01    230.82      0.50       665.20       172.57
+stress-ng: info: [8486] vm             5554688     60.04    211.32     10.30     92512.04     25064.02
+
+
+
+
+
+
+
+
+root@neeraj:~/stress-ng-0.03.11# ./stress-ng move-inv --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s
+stress-ng: info: [8542] dispatching hogs: 16 vm
+stress-ng: info: [8542] successful run completed in 60.49s
+stress-ng: info: [8542] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8542]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8542] vm            13468928     60.04    434.69     24.30    224325.79     29344.71
+stress-ng: info: [8576] dispatching hogs: 16 vm
+stress-ng: info: [8576] successful run completed in 60.07s
+stress-ng: info: [8576] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8576]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8576] vm             8544512     60.04    123.29      7.60    142308.72     65280.10
+stress-ng: info: [8609] dispatching hogs: 16 vm
+stress-ng: info: [8609] successful run completed in 60.10s
+stress-ng: info: [8609] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8609]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8609] vm            12366976     60.04    417.09     24.38    205986.44     28013.17
+stress-ng: info: [8642] dispatching hogs: 16 vm
+stress-ng: info: [8642] successful run completed in 60.08s
+stress-ng: info: [8642] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8642]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8642] vm            10978304     60.03    412.60     21.87    182867.21     25268.27
+stress-ng: info: [8675] dispatching hogs: 16 vm
+stress-ng: info: [8675] successful run completed in 60.08s
+stress-ng: info: [8675] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8675]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8675] vm            14205440     60.04    220.67     12.50    236599.06     60923.10
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11#
+root@neeraj:~/stress-ng-0.03.11# ./stress-ng move-inv --cpu 4 --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --cpu 4 --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --cpu 4 --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --cpu 4 --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s;./stress-ng move-inv --cpu 4 --vm 16 --vm-bytes 1073741824  --metrics-brief --timeout 60s
+stress-ng: info: [8728] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8728] successful run completed in 60.11s
+stress-ng: info: [8728] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8728]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8728] cpu              37428     60.03    221.21      0.06       623.48       169.15
+stress-ng: info: [8728] vm             6804096     60.03    233.87     12.89    113353.40     27573.74
+stress-ng: info: [8765] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8765] successful run completed in 60.09s
+stress-ng: info: [8765] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8765]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8765] cpu              38726     60.05    235.32      0.06       644.92       164.53
+stress-ng: info: [8765] vm             6664832     60.02    221.58     10.64    111034.46     28700.51
+stress-ng: info: [8802] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8802] successful run completed in 60.10s
+stress-ng: info: [8802] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8802]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8802] cpu              34720     60.02    211.52      0.14       578.51       164.04
+stress-ng: info: [8802] vm             6812288     60.03    249.03     11.42    113482.49     26155.84
+stress-ng: info: [8839] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8839] successful run completed in 60.23s
+stress-ng: info: [8839] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8839]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8839] cpu              33792     60.04    200.99      0.12       562.84       168.03
+stress-ng: info: [8839] vm             6812288     60.02    250.86     12.48    113495.32     25868.79
+stress-ng: info: [8878] dispatching hogs: 4 cpu, 16 vm
+stress-ng: info: [8878] successful run completed in 60.08s
+stress-ng: info: [8878] stressor      bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info: [8878]                          (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info: [8878] cpu              29961     60.02    180.94      0.14       499.15       165.46
+stress-ng: info: [8878] vm            11871616     60.03    281.98     15.86    197771.14     39859.04
+
