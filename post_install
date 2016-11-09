@@ -3,3 +3,4 @@ apt-get install build-essential
 apt-get install bc
 apt-get install libncurses5-dev libncursesw5-dev
 apt-get install libssl-dev
+sudo apt install xfce4 xfce4-goodies tightvncserver
