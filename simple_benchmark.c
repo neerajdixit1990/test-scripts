@@ -45,7 +45,13 @@ int main(int argc, char **argv) {
 		} else if (pid < 0) {
 			printf("\nError in fork() system call !\n");
 		} else {
-			while (wait(&status) != pid)       /* wait for completion  */
+                        // make separate pages in-case of COW fork()
+                        for (i = 0; i < N; i++) {
+                                int_ptr = ret_addr[i];
+                                *int_ptr = 102;
+                        }
+
+			while (wait(&status) != pid)       /* wait for child completion */
                			;
 		}
 	}
