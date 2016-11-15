@@ -12,9 +12,7 @@ int main(int argc, char **argv) {
 		printf("Usage: <prog> <num of forks>\n");
 		exit(1);
 	}
-        //printf("\nargc = %d\targv[1] = %s\n", argc, argv[1]);
         depth = atoi(argv[1]);
-        //printf("\nValue of argument = %d\n", depth);
 
 	int	i = 0;
 	void 	*ret_addr[N];
@@ -24,12 +22,12 @@ int main(int argc, char **argv) {
 	int	status = 0;
 
 	snprintf(args, 10, "%d", depth-1);
-	//printf("\nargs= %s\n", args);
 
-	// allocate 512 MB of data, 134217728*4 = 512 MB
+	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++)
 		ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
 
+	// access that memory to fill up the page tables
 	for (i = 0; i < N; i++) {
 		int_ptr = ret_addr[i];
 		*int_ptr = 101;	
@@ -38,7 +36,7 @@ int main(int argc, char **argv) {
 	if (depth > 0) {
 		pid = fork();
 		if (pid == 0) {
-			//printf("Execute %d\n", depth);
+			// spawn same program with reduced depth
 			execlp("./simple_benchmark", "./simple_benchmark", args, (char *)0);
 			printf("\nShould not return !!\n");
 			return 0;
@@ -50,14 +48,14 @@ int main(int argc, char **argv) {
                                 int_ptr = ret_addr[i];
                                 *int_ptr = 102;
                         }
-
-			while (wait(&status) != pid)       /* wait for child completion */
+			// parent process waits for child completion
+			while (wait(&status) != pid) 
                			;
 		}
 	}
 
-        for (i = 0; i < N; i++)
+        // unmap memory in parent process
+	for (i = 0; i < N; i++)
                 status = munmap(ret_addr[i], 4096);
-	//printf("Finish %d\n", depth);
 	return 0;
 }
