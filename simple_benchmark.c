@@ -8,8 +8,10 @@
 #include <sched.h>
 #include <errno.h>
 
-#define	N 		10000
-#define STEP		100
+#define	N 			10000
+#define STEP_ALLOC		50
+#define STEP_ACCESS		100
+#define	STEP_DEALLOC		150
 
 void change_cpu() {
 	int		i = 0, j = 0;
@@ -60,7 +62,7 @@ int main(int argc, char **argv) {
 	for (i = 0; i < N; i++) {
 		ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
 		
-		if (i%STEP == 0)
+		if (i%STEP_ALLOC == 0)
 			change_cpu();
 	}
 
@@ -85,7 +87,7 @@ int main(int argc, char **argv) {
                                 int_ptr = ret_addr[i];
                                 *int_ptr = 102;
 				
-				if (i%STEP == 0)
+				if (i%STEP_ACCESS == 0)
 					change_cpu();	
                         }
 			// parent process waits for child completion
@@ -98,7 +100,7 @@ int main(int argc, char **argv) {
 	for (i = 0; i < N; i++) {
                 status = munmap(ret_addr[i], 4096);
 
-		if (i%STEP == 0)
+		if (i%STEP_DEALLOC== 0)
 			change_cpu();	
 	}
 	return 0;
