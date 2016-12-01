@@ -18,23 +18,28 @@ void change_cpu() {
 	cpu_set_t       mask;
 	int		status;
 
-	// for every 100th memory access, get CPU affinity
+	// get CPU affinity
 	CPU_ZERO(&mask);
 	status = sched_getaffinity(0, sizeof(mask), &mask);
 	if (status != 0)
 		printf("\nUnable to get CPU affinity: %s\n", strerror(errno));
 
-	for (j = 0; j < 8; j++) {
+	for (j = 0; j < 12; j++) {
 		if (CPU_ISSET(j, &mask))
 		break;
 	}
 
-	// change CPU affinity to next CPU
+	// change CPU affinity to CPU on another core
 	CPU_ZERO(&mask);
-	CPU_SET((j+1)%8, &mask);
-	status = sched_setaffinity(0, sizeof(mask), &mask);
-	if (status != 0)
-		printf("\nUnable to set CPU affinity: %s\n", strerror(errno));
+	if (j < 6) {
+		CPU_SET((j+6)%8, &mask);
+	} else {
+		CPU_SET((j-6)%8, &mask);
+	}
+
+        status = sched_setaffinity(0, sizeof(mask), &mask);
+        if (status != 0)
+        	printf("\nUnable to set CPU affinity: %s\n", strerror(errno));
 
 	// yield to access memory from different CPU
 	status = sched_yield();
@@ -61,9 +66,6 @@ int main(int argc, char **argv) {
 	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++) {
 		ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
-		
-		if (i%STEP_ALLOC == 0)
-			change_cpu();
 	}
 
 	// access that memory to fill up the page tables
@@ -76,7 +78,7 @@ int main(int argc, char **argv) {
 		pid = fork();
 		if (pid == 0) {
 			// spawn same program with reduced depth
-			execlp("./simple_benchmark", "./simple_benchmark", args, (char *)0);
+			execlp("./better_SLAB", "./better_SLAB", args, (char *)0);
 			printf("\nShould not return !!\n");
 			return 0;
 		} else if (pid < 0) {
@@ -86,9 +88,6 @@ int main(int argc, char **argv) {
                         for (i = 0; i < N; i++) {
                                 int_ptr = ret_addr[i];
                                 *int_ptr = 102;
-				
-				if (i%STEP_ACCESS == 0)
-					change_cpu();	
                         }
 			// parent process waits for child completion
 			while (wait(&status) != pid) 
@@ -96,12 +95,12 @@ int main(int argc, char **argv) {
 		}
 	}
 
-        // unmap memory in parent process
+        // switch to other NUMA node for de-allocation
+	change_cpu();
+
+	// unmap memory in parent process
 	for (i = 0; i < N; i++) {
                 status = munmap(ret_addr[i], 4096);
-
-		if (i%STEP_DEALLOC== 0)
-			change_cpu();	
 	}
 	return 0;
 }
