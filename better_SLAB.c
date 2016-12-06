@@ -10,8 +10,8 @@
 
 #define	N 			10000
 #define STEP_ALLOC		50
-#define STEP_ACCESS		100
-#define	STEP_DEALLOC		150
+#define STEP_ACCESS		50
+#define	STEP_DEALLOC		50
 
 void
 change_cpu_other_numanode() {
@@ -64,7 +64,7 @@ change_cpu_same_numanode() {
         // change CPU affinity to CPU on same NUMA node 
         CPU_ZERO(&mask);
         if (j < 6) {
-                CPU_SET((j+1)%6, &mask);
+		CPU_SET((j+1)%6, &mask);
         } else {
                 CPU_SET(((j-6+1)%6) + 6, &mask);
         }
@@ -120,9 +120,6 @@ int main(int argc, char **argv) {
 			printf("\nError in fork() system call : %s\n", strerror(errno));
 		} else {
 
-		        // switch to other NUMA node for de-allocation
-        		change_cpu_other_numanode();
-
                         // make separate pages in-case of COW fork()
                         for (i = 0; i < N; i++) {
                                 int_ptr = ret_addr[i];
@@ -136,6 +133,9 @@ int main(int argc, char **argv) {
                			;
 		}
 	}
+
+        // switch to other NUMA node for de-allocation
+        change_cpu_other_numanode();
 
 	// unmap memory in parent process
 	for (i = 0; i < N; i++) {
