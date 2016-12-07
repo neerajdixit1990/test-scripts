@@ -10,7 +10,8 @@ if len(sys.argv) < 3:
 
 #cmd = [sys.argv[1]]
 #cmd = ["docker", "run", "-t", "--name=streaming_client", "-v", "/path/to/output:/output", "--volumes-from", "streaming_dataset", "--net", "streaming_network", "cloudsuite/media-streaming:client", "streaming_server"]
-cmd = ["docker", "run", "--rm", "--volumes-from", "data", "cloudsuite/graph-analytics", "--driver-memory", "32g", "--executor-memory", "32g"]
+cmd = ["docker", "run", "--rm", "--volumes-from", "data", "cloudsuite/graph-analytics", "--driver-memory", "57g", "--executor-memory", "57g"]
+#cmd = ["docker", "run", "--rm", "--volumes-from", "data", "cloudsuite/graph-analytics"]
 n = int(sys.argv[1])
 f = open(sys.argv[2], 'w')
 #print cmd
