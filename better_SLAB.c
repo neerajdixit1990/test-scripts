@@ -7,6 +7,7 @@
 #include <sys/wait.h>
 #include <sched.h>
 #include <errno.h>
+#include <numa.h>
 
 #define	N 			10000
 #define STEP_ALLOC		50
@@ -14,64 +15,24 @@
 #define	STEP_DEALLOC		50
 
 void
-change_cpu_other_numanode() {
-	int		i = 0, j = 0;
-	cpu_set_t       mask;
-	int		status;
-
-	// get CPU affinity
-	CPU_ZERO(&mask);
-	status = sched_getaffinity(0, sizeof(mask), &mask);
-	if (status != 0)
-		printf("\nUnable to get CPU affinity: %s\n", strerror(errno));
-
-	for (j = 0; j < 12; j++) {
-		if (CPU_ISSET(j, &mask))
-		break;
-	}
-
-	// change CPU affinity to CPU on another NUMA node 
-	CPU_ZERO(&mask);
-	CPU_SET((j+6)%12, &mask);
-
-        status = sched_setaffinity(0, sizeof(mask), &mask);
-        if (status != 0)
-        	printf("\nUnable to set CPU affinity: %s\n", strerror(errno));
-
-	// yield to access memory from different CPU
-	status = sched_yield();
-	if (status != 0)
-		printf("\nUnable to yield CPU : %s\n", strerror(errno));
-}
-
-void
-change_cpu_same_numanode() {
+set_numa_cpu_affinity() {
         int             i = 0, j = 0;
-        cpu_set_t       mask;
         int             status;
+	struct bitmask	*a = NULL;
 
-        // get CPU affinity
-        CPU_ZERO(&mask);
-        status = sched_getaffinity(0, sizeof(mask), &mask);
-        if (status != 0)
-                printf("\nUnable to get CPU affinity: %s\n", strerror(errno));
+	// schedule process on NUMA node 1 
+        a = numa_allocate_cpumask();
+        for (i = 6; i < 12; i++)
+                 a = numa_bitmask_setbit(a, i);
 
-        for (j = 0; j < 12; j++) {
-                if (CPU_ISSET(j, &mask))
-                	break;
-        }
+        /*for (i = 0; i < 12; i++) {
+                printf("\tNUMA set affinity for CPU %d: %d\n", i, numa_bitmask_isbitset(a, i));
+        }*/
 
-        // change CPU affinity to CPU on same NUMA node 
-        CPU_ZERO(&mask);
-        if (j < 6) {
-		CPU_SET((j+1)%6, &mask);
-        } else {
-                CPU_SET(((j-6+1)%6) + 6, &mask);
-        }
-
-        status = sched_setaffinity(0, sizeof(mask), &mask);
-        if (status != 0)
-                printf("\nUnable to set CPU affinity: %s\n", strerror(errno));
+        i = numa_sched_setaffinity(0, a);
+        if (i != 0)
+                printf("sched set affinity error : %s\n", strerror(errno));
+        numa_bitmask_free(a);
 
         // yield to access memory from different CPU
         status = sched_yield();
@@ -97,10 +58,14 @@ int main(int argc, char **argv) {
 
 	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++) {
-		ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
+	        ret_addr[i] = numa_alloc_onnode(4096, 0);
+        	if (ret_addr[i]  == NULL)
+                	printf("NUMA alloc on node 0 failed !\n");
+	
+		/*ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);*/
 
                 if (i%STEP_ALLOC == 0)
-                        change_cpu_same_numanode();
+                        set_numa_cpu_affinity();
 	}
 
 	// access that memory to fill up the page tables
@@ -126,7 +91,7 @@ int main(int argc, char **argv) {
                                 *int_ptr = 102;
         
                                 if (i%STEP_ACCESS == 0)
-                                        change_cpu_same_numanode();
+                                        set_numa_cpu_affinity();
 	                }
 			// parent process waits for child completion
 			while (wait(&status) != pid) 
@@ -134,15 +99,12 @@ int main(int argc, char **argv) {
 		}
 	}
 
-        // switch to other NUMA node for de-allocation
-        change_cpu_other_numanode();
-
 	// unmap memory in parent process
 	for (i = 0; i < N; i++) {
-                status = munmap(ret_addr[i], 4096);
+                numa_free(ret_addr[i], 4096);
 
                 if (i%STEP_DEALLOC== 0)
-                        change_cpu_same_numanode();
+                        set_numa_cpu_affinity();
 	}
 	return 0;
 }
