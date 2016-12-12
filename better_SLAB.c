@@ -56,6 +56,7 @@ int main(int argc, char **argv) {
         depth = atoi(argv[1]);
 	snprintf(args, 10, "%d", depth-1);
 
+	numa_set_strict(1);
 	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++) {
 	        ret_addr[i] = numa_alloc_onnode(4096, 0);
