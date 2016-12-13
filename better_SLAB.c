@@ -20,24 +20,26 @@ set_numa_cpu_affinity() {
         int             status;
 	struct bitmask	*a = NULL;
 
-	// schedule process on NUMA node 1 
+	/*// schedule process on NUMA node 1 
         a = numa_allocate_cpumask();
         for (i = 6; i < 12; i++)
                  a = numa_bitmask_setbit(a, i);
 
-        /*for (i = 0; i < 12; i++) {
-                printf("\tNUMA set affinity for CPU %d: %d\n", i, numa_bitmask_isbitset(a, i));
-        }*/
+        //for (i = 0; i < 12; i++) {
+        //        printf("\tNUMA set affinity for CPU %d: %d\n", i, numa_bitmask_isbitset(a, i));
+        //}
 
         i = numa_sched_setaffinity(0, a);
         if (i != 0)
                 printf("sched set affinity error : %s\n", strerror(errno));
-        numa_bitmask_free(a);
+        numa_bitmask_free(a);*/
+
+	numa_run_on_node(1);
 
         // yield to access memory from different CPU
-        status = sched_yield();
+        /*status = sched_yield();
         if (status != 0)
-                printf("\nUnable to yield CPU : %s\n", strerror(errno));
+                printf("\nUnable to yield CPU : %s\n", strerror(errno));*/
 }
 
 int main(int argc, char **argv) {
@@ -57,16 +59,17 @@ int main(int argc, char **argv) {
 	snprintf(args, 10, "%d", depth-1);
 
 	numa_set_strict(1);
+	set_numa_cpu_affinity();
 	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++) {
 	        ret_addr[i] = numa_alloc_onnode(4096, 0);
         	if (ret_addr[i]  == NULL)
                 	printf("NUMA alloc on node 0 failed !\n");
 	
-		/*ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);*/
+		/*ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
 
                 if (i%STEP_ALLOC == 0)
-                        set_numa_cpu_affinity();
+                        set_numa_cpu_affinity();*/
 	}
 
 	// access that memory to fill up the page tables
@@ -91,8 +94,8 @@ int main(int argc, char **argv) {
                                 int_ptr = ret_addr[i];
                                 *int_ptr = 102;
         
-                                if (i%STEP_ACCESS == 0)
-                                        set_numa_cpu_affinity();
+                                /*if (i%STEP_ACCESS == 0)
+                                        set_numa_cpu_affinity();*/
 	                }
 			// parent process waits for child completion
 			while (wait(&status) != pid) 
@@ -104,8 +107,8 @@ int main(int argc, char **argv) {
 	for (i = 0; i < N; i++) {
                 numa_free(ret_addr[i], 4096);
 
-                if (i%STEP_DEALLOC== 0)
-                        set_numa_cpu_affinity();
+                /*if (i%STEP_DEALLOC== 0)
+                        set_numa_cpu_affinity();*/
 	}
 	return 0;
 }
