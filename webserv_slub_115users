@@ -1,0 +1,2215 @@
+Starting Faban Server
+Please point your browser to http://neeraj:9980/
+User0 generated.
+User1 generated.
+User2 generated.
+User3 generated.
+User4 generated.
+User5 generated.
+User6 generated.
+User7 generated.
+User8 generated.
+User9 generated.
+User10 generated.
+User11 generated.
+User12 generated.
+User13 generated.
+User14 generated.
+User15 generated.
+User16 generated.
+User17 generated.
+User18 generated.
+User19 generated.
+User20 generated.
+User21 generated.
+User22 generated.
+User23 generated.
+User24 generated.
+User25 generated.
+User26 generated.
+User27 generated.
+User28 generated.
+User29 generated.
+User30 generated.
+User31 generated.
+User32 generated.
+User33 generated.
+User34 generated.
+User35 generated.
+User36 generated.
+User37 generated.
+User38 generated.
+User39 generated.
+User40 generated.
+User41 generated.
+User42 generated.
+User43 generated.
+User44 generated.
+User45 generated.
+User46 generated.
+User47 generated.
+User48 generated.
+User49 generated.
+User50 generated.
+User51 generated.
+User52 generated.
+User53 generated.
+User54 generated.
+User55 generated.
+User56 generated.
+User57 generated.
+User58 generated.
+User59 generated.
+User60 generated.
+User61 generated.
+User62 generated.
+User63 generated.
+User64 generated.
+User65 generated.
+User66 generated.
+User67 generated.
+User68 generated.
+User69 generated.
+User70 generated.
+User71 generated.
+User72 generated.
+User73 generated.
+User74 generated.
+User75 generated.
+User76 generated.
+User77 generated.
+User78 generated.
+User79 generated.
+User80 generated.
+User81 generated.
+User82 generated.
+User83 generated.
+User84 generated.
+User85 generated.
+User86 generated.
+User87 generated.
+User88 generated.
+User89 generated.
+User90 generated.
+User91 generated.
+User92 generated.
+User93 generated.
+User94 generated.
+User95 generated.
+User96 generated.
+User97 generated.
+User98 generated.
+User99 generated.
+User100 generated.
+User101 generated.
+User102 generated.
+User103 generated.
+User104 generated.
+User105 generated.
+User106 generated.
+User107 generated.
+User108 generated.
+User109 generated.
+User110 generated.
+User111 generated.
+User112 generated.
+User113 generated.
+User114 generated.
+Buildfile: /web20_benchmark/build.xml
+
+init:
+
+compile:
+
+bench.jar:
+
+run:
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.RegistryLocator getRegistry
+     [java] FINE: Obtaining registry at localhost:9998
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - before
+     [java] MatrixMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix:
+     [java] 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.9, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: Obtained stable mix at matrix power 7.
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - after
+     [java] FlatMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix: 0.0103, 0.0103, 0.309, 0.5664, 0.0927, 0.001, 0.0103
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fa") = http://faban.sunsource.net/ns/faban
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.FabanNamespaceContext getNamespaceURI
+     [java] FINER: getNamespaceURI("fd") = http://faban.sunsource.net/ns/fabandriver
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - before
+     [java] MatrixMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix:
+     [java] 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.9, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: Obtained stable mix at matrix power 7.
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - after
+     [java] FlatMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix: 0.0103, 0.0103, 0.309, 0.5664, 0.0927, 0.001, 0.0103
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MasterImpl runBenchmark
+     [java] INFO: RunID for this run is : 1
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.engine.MasterImpl runBenchmark
+     [java] INFO: Output directory for this run is : /faban/output/1
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.common.RegistryLocator getRegistry
+     [java] FINE: Obtaining registry at localhost:9998
+     [java] Dec 15, 2016 3:56:41 AM com.sun.faban.driver.util.Timer idleTimerCheck
+     [java] INFO: ElggDriverAgent[0]: Performing idle timer check
+     [java] Dec 15, 2016 3:56:42 AM com.sun.faban.driver.util.Timer idleTimerCheck
+     [java] INFO: ElggDriverAgent[0]: Idle timer characteristics:
+     [java] Accuracy=3,
+     [java] min. invocation cost=25,
+     [java] med. invocation cost (math)=26.0,
+     [java] med. invocation cost (phys)=26,
+     [java] avg. invocation cost=29.6958,
+     [java] max. invocation cost=347,
+     [java] variance of invocation cost=166.3160623599994.
+     [java] Logging in: DvGGtiFiQv
+     [java] Dec 15, 2016 3:56:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:44 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread0
+     [java] Logging in: tbFxEadoWg
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:45 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread1
+     [java] Logging in: PLcZAORlSB
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:45 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread2
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:45 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread3
+     [java] Logging in: ZlZvYyfdtV
+     [java] Dec 15, 2016 3:56:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:46 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread4
+     [java] Logging in: oluqUTlvio
+     [java] Dec 15, 2016 3:56:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:47 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread5
+     [java] Logging in: IxeieLniAr
+     [java] Dec 15, 2016 3:56:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:48 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread6
+     [java] Logging in: KJHEPEUPin
+     [java] Dec 15, 2016 3:56:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:49 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread7
+     [java] Logging in: mRxiHTwsoi
+     [java] Dec 15, 2016 3:56:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:50 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread8
+     [java] Logging in: udEPPmIgyn
+     [java] Dec 15, 2016 3:56:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:51 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread9
+     [java] Logging in: IjYuTwIaDP
+     [java] Dec 15, 2016 3:56:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:52 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread10
+     [java] Logging in: wpzqsWybVN
+     [java] Dec 15, 2016 3:56:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:53 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread11
+     [java] Logging in: wbqshspHDa
+     [java] Dec 15, 2016 3:56:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:54 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread12
+     [java] Logging in: YyUafNECqH
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:56:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:55 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread13
+     [java] Logging in: PsAGqKnZuk
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Logging in: LbyYYZeqGk
+     [java] Dec 15, 2016 3:56:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:56 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread14
+     [java] PRINT: Successfully logged in
+     [java] Logging in: mVjRuvVojT
+     [java] Dec 15, 2016 3:56:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:57 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread15
+     [java] PRINT: Successfully logged in
+     [java] Logging in: qDFHONXect
+     [java] Dec 15, 2016 3:56:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:58 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread16
+     [java] PRINT: Successfully logged in
+     [java] Logging in: vFKegpghaL
+     [java] Dec 15, 2016 3:56:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:56:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:56:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:56:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:56:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:56:59 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread17
+     [java] PRINT: Successfully logged in
+     [java] Logging in: cKnRZAblcH
+     [java] Dec 15, 2016 3:57:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:00 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread18
+     [java] PRINT: Successfully logged in
+     [java] Logging in: JcIUxhUlnN
+     [java] Dec 15, 2016 3:57:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:01 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread19
+     [java] PRINT: Successfully logged in
+     [java] Logging in: UXFvbXJkqh
+     [java] Dec 15, 2016 3:57:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:02 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread20
+     [java] PRINT: Successfully logged in
+     [java] Logging in: nGmBfxquVl
+     [java] Dec 15, 2016 3:57:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:03 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread21
+     [java] PRINT: Successfully logged in
+     [java] Logging in: lFXbWTHDLa
+     [java] Dec 15, 2016 3:57:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:04 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread22
+     [java] PRINT: Successfully logged in
+     [java] Logging in: fVkmJZRAte
+     [java] Dec 15, 2016 3:57:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:05 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread23
+     [java] PRINT: Successfully logged in
+     [java] Logging in: zijkBiIIUH
+     [java] Dec 15, 2016 3:57:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:06 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread24
+     [java] PRINT: Successfully logged in
+     [java] Logging in: uFhDXVlJCN
+     [java] Dec 15, 2016 3:57:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:07 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread25
+     [java] PRINT: Successfully logged in
+     [java] Logging in: zFWxtWacCO
+     [java] Dec 15, 2016 3:57:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:08 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread26
+     [java] PRINT: Successfully logged in
+     [java] Logging in: fCJaqfyCsV
+     [java] Dec 15, 2016 3:57:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:09 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread27
+     [java] PRINT: Successfully logged in
+     [java] Logging in: xKQoduwIPy
+     [java] Dec 15, 2016 3:57:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:10 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread28
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dqPxFcNqUP
+     [java] Dec 15, 2016 3:57:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:11 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread29
+     [java] PRINT: Successfully logged in
+     [java] Logging in: KdRtFjPTAm
+     [java] Dec 15, 2016 3:57:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:12 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread30
+     [java] PRINT: Successfully logged in
+     [java] Logging in: BZSrLodsQo
+     [java] Dec 15, 2016 3:57:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:13 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread31
+     [java] PRINT: Successfully logged in
+     [java] Logging in: XPFjkeeiYf
+     [java] Dec 15, 2016 3:57:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:14 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread32
+     [java] PRINT: Successfully logged in
+     [java] Logging in: bcHAJAcDUJ
+     [java] Dec 15, 2016 3:57:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:15 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread33
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dKLQtwAZnm
+     [java] Dec 15, 2016 3:57:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:16 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread34
+     [java] PRINT: Successfully logged in
+     [java] Logging in: mVFXiDwOBY
+     [java] Dec 15, 2016 3:57:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:17 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread35
+     [java] PRINT: Successfully logged in
+     [java] Logging in: pEbQsCedVy
+     [java] Dec 15, 2016 3:57:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:18 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread36
+     [java] PRINT: Successfully logged in
+     [java] Logging in: SdieCeUkZU
+     [java] Dec 15, 2016 3:57:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:19 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread37
+     [java] PRINT: Successfully logged in
+     [java] Logging in: bhnutZRneO
+     [java] Dec 15, 2016 3:57:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:20 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread38
+     [java] PRINT: Successfully logged in
+     [java] Logging in: adLsluezpn
+     [java] Dec 15, 2016 3:57:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:21 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread39
+     [java] PRINT: Successfully logged in
+     [java] Logging in: CkhhTNqGbJ
+     [java] Dec 15, 2016 3:57:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:22 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread40
+     [java] PRINT: Successfully logged in
+     [java] Logging in: EbJfufIFus
+     [java] Dec 15, 2016 3:57:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:23 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread41
+     [java] PRINT: Successfully logged in
+     [java] Logging in: JGlidsyuLZ
+     [java] Dec 15, 2016 3:57:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:24 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread42
+     [java] PRINT: Successfully logged in
+     [java] Logging in: oVNdMxZgNi
+     [java] Dec 15, 2016 3:57:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:25 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread43
+     [java] PRINT: Successfully logged in
+     [java] Logging in: TeaoyrMSZu
+     [java] Dec 15, 2016 3:57:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:26 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread44
+     [java] PRINT: Successfully logged in
+     [java] Logging in: DdraXchAFQ
+     [java] Dec 15, 2016 3:57:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:27 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread45
+     [java] PRINT: Successfully logged in
+     [java] Logging in: rmZOYpYKvW
+     [java] Dec 15, 2016 3:57:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:28 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread46
+     [java] PRINT: Successfully logged in
+     [java] Logging in: TXxqycBiHL
+     [java] Dec 15, 2016 3:57:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:29 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread47
+     [java] PRINT: Successfully logged in
+     [java] Logging in: psOUOLEWNj
+     [java] Dec 15, 2016 3:57:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:30 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread48
+     [java] PRINT: Successfully logged in
+     [java] Logging in: yDaArGOBBd
+     [java] Dec 15, 2016 3:57:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:31 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread49
+     [java] PRINT: Successfully logged in
+     [java] Logging in: ApoHuEgDWO
+     [java] Dec 15, 2016 3:57:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:32 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread50
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Logging in: NubXakiObH
+     [java] Dec 15, 2016 3:57:33 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread51
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:34 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread52
+     [java] Logging in: qrUilEdKCH
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:35 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread53
+     [java] Logging in: yJnCoeGrYl
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:36 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread54
+     [java] Logging in: lqaxJftSKT
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:37 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:37 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:37 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:37 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:37 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:37 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread55
+     [java] Logging in: FyhMNjYMae
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:38 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:38 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:38 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:38 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:38 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:38 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread56
+     [java] Logging in: MfagSICozz
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:39 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:39 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:39 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:39 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:39 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:39 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread57
+     [java] Logging in: TKooJhYtEf
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:40 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:40 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:40 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:40 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:40 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:40 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread58
+     [java] Logging in: KlkKTuLYgf
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:41 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:41 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread59
+     [java] Logging in: zeORZWnbsR
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:42 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:42 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:42 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:42 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:42 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:42 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread60
+     [java] Logging in: ArStRysBrv
+     [java] PRINT: Successfully logged in
+     [java] Logging in: UXFvbXJkqh
+     [java] Dec 15, 2016 3:57:43 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:43 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:43 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:43 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:43 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:43 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread61
+     [java] Logging in: yYYbFUHAtq
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:44 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:44 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread62
+     [java] Logging in: jVpESRETOk
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:45 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:45 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread63
+     [java] Logging in: vdKJVKSDFA
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:46 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:46 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread64
+     [java] Logging in: LabtAJYSPW
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dKLQtwAZnm
+     [java] Dec 15, 2016 3:57:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:47 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:47 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread65
+     [java] Logging in: LOQquCRbDJ
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:48 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:48 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread66
+     [java] Logging in: xokRQowMUv
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:49 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:49 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread67
+     [java] Logging in: PNThbPwKfk
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:50 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:50 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread68
+     [java] Logging in: AAJTsrRNRV
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:51 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:51 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread69
+     [java] Logging in: BJbgoaNJSr
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:52 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:52 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread70
+     [java] Logging in: mzWZzXbERV
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:53 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:53 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread71
+     [java] Logging in: cuBYlxNTCk
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:54 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:54 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread72
+     [java] Logging in: sDciDIGNJi
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:55 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:55 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread73
+     [java] Logging in: MZCSrqJevb
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:56 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:56 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread74
+     [java] Logging in: rIaEzpHyDM
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:57:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:57 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:57 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread75
+     [java] Logging in: VCdyqKERve
+     [java] PRINT: Successfully logged in
+     [java] Logging in: mVjRuvVojT
+     [java] Dec 15, 2016 3:57:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:58 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:58 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread76
+     [java] Logging in: dAVrnNfZTH
+     [java] PRINT: Successfully logged in
+     [java] Logging in: pEbQsCedVy
+     [java] Dec 15, 2016 3:57:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:57:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:57:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:57:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:57:59 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:57:59 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread77
+     [java] Logging in: zwgJGgWXVo
+     [java] PRINT: Successfully logged in
+     [java] Logging in: SdieCeUkZU
+     [java] Dec 15, 2016 3:58:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:00 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:00 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread78
+     [java] Logging in: RasMqMUQxz
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:01 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:01 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread79
+     [java] Logging in: VxFKwCUkXX
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:02 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:02 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread80
+     [java] Logging in: nAVsEXwnRU
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:03 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:03 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread81
+     [java] Logging in: VktNOHkXyK
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:04 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:04 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread82
+     [java] Logging in: OeVLOBtiNu
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:05 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:05 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread83
+     [java] Logging in: JCBHEewCaY
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:06 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:06 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread84
+     [java] Logging in: BfWlrSaNEV
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:07 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:07 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread85
+     [java] Logging in: ceYCYYUuHX
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dOWVTzjcMq
+     [java] Dec 15, 2016 3:58:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:08 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:08 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread86
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Logging in: rLCblRROuZ
+     [java] Dec 15, 2016 3:58:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:09 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:09 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread87
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Logging in: cBaTtoTifp
+     [java] Dec 15, 2016 3:58:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:10 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:10 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread88
+     [java] PRINT: Successfully logged in
+     [java] Logging in: ZYHhbLHmjm
+     [java] Dec 15, 2016 3:58:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:11 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:11 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread89
+     [java] PRINT: Successfully logged in
+     [java] Logging in: RlSKbPYymZ
+     [java] Dec 15, 2016 3:58:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:12 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:12 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread90
+     [java] PRINT: Successfully logged in
+     [java] Logging in: DNNfcgWijN
+     [java] Dec 15, 2016 3:58:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:13 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:13 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread91
+     [java] PRINT: Successfully logged in
+     [java] Logging in: VEFhOOECDQ
+     [java] Dec 15, 2016 3:58:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:14 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:14 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread92
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dyzPcfWkbg
+     [java] Dec 15, 2016 3:58:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:15 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:15 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread93
+     [java] PRINT: Successfully logged in
+     [java] Logging in: bAPPaQeoVp
+     [java] Dec 15, 2016 3:58:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:16 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:16 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread94
+     [java] PRINT: Successfully logged in
+     [java] Logging in: gIkfLJDwxV
+     [java] Dec 15, 2016 3:58:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:17 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:17 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread95
+     [java] PRINT: Successfully logged in
+     [java] Logging in: ZgrEIXHAtr
+     [java] Dec 15, 2016 3:58:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:18 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:18 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread96
+     [java] PRINT: Successfully logged in
+     [java] Logging in: ASXjpqamZb
+     [java] Dec 15, 2016 3:58:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:19 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:19 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread97
+     [java] PRINT: Successfully logged in
+     [java] Logging in: svTyaKfndL
+     [java] Dec 15, 2016 3:58:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:20 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:20 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread98
+     [java] PRINT: Successfully logged in
+     [java] Logging in: NdEDMhRKcG
+     [java] Dec 15, 2016 3:58:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:21 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:21 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread99
+     [java] PRINT: Successfully logged in
+     [java] Logging in: pjXpIDuklh
+     [java] Dec 15, 2016 3:58:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:22 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:22 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread100
+     [java] PRINT: Successfully logged in
+     [java] Logging in: bnlhwlLQCd
+     [java] Dec 15, 2016 3:58:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:23 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:23 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread101
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:24 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Logging in: CJSjCqChXQ
+     [java] Dec 15, 2016 3:58:24 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread102
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:25 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:25 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread103
+     [java] Logging in: AAputZGBJg
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:26 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:26 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread104
+     [java] Logging in: eMVzloADDA
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:27 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:27 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread105
+     [java] Logging in: SXjeZHMTDv
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:28 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:28 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread106
+     [java] Logging in: fGQptOYqUU
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:29 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:29 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread107
+     [java] Logging in: JNGQQlGCfP
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:30 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:30 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread108
+     [java] Logging in: uWhnAkZwAR
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:31 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:31 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread109
+     [java] Logging in: PiUKsFFwYm
+     [java] PRINT: Successfully logged in
+     [java] Logging in: BJbgoaNJSr
+     [java] Dec 15, 2016 3:58:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:32 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:32 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread110
+     [java] Logging in: cdfXqsisHN
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:33 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:33 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread111
+     [java] Logging in: biuefzJsJn
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:34 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:34 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread112
+     [java] Logging in: ljtbejCWWR
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:35 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:35 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread113
+     [java] Logging in: IMJBWvsPoa
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/XML/1998/namespace, xml
+     [java] Dec 15, 2016 3:58:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://www.w3.org/2000/xmlns/, xmlns
+     [java] Dec 15, 2016 3:58:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/faban, fa
+     [java] Dec 15, 2016 3:58:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabandriver, fd
+     [java] Dec 15, 2016 3:58:36 AM com.sun.faban.common.FabanNamespaceContext addNamespace
+     [java] FINER: Adding http://faban.sunsource.net/ns/fabanharness, fh
+     [java] Dec 15, 2016 3:58:36 AM workload.driver.Web20Driver browseToElgg
+     [java] INFO: Inited thread114
+     [java] Logging in: vImghbOsHG
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:37 AM com.sun.faban.driver.engine.AgentImpl run
+     [java] INFO: ElggDriverAgent[0]: Successfully started 115 driver threads.
+     [java] Dec 15, 2016 3:58:37 AM com.sun.faban.driver.engine.MasterImpl executeRun
+     [java] INFO: Started all threads; run commences in 2998 ms
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:40 AM com.sun.faban.driver.util.Timer$BusyTimerMeter run
+     [java] INFO: ElggDriverAgent[0]: Performing busy timer check
+     [java] Dec 15, 2016 3:58:40 AM com.sun.faban.driver.util.Timer$BusyTimerMeter run
+     [java] INFO: ElggDriverAgent[0]: Busy timer characteristics:
+     [java] Accuracy=3,
+     [java] min. invocation cost=25,
+     [java] med. invocation cost (math)=25.0,
+     [java] med. invocation cost (phys)=25,
+     [java] avg. invocation cost=25.7001,
+     [java] max. invocation cost=3353,
+     [java] variance of invocation cost=1107.8137599899999.
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:58:50 AM com.sun.faban.driver.util.Timer$SleepCalibrator run
+     [java] INFO: ElggDriverAgent[0]: Calibration succeeded. Sleep time deviation: 0.08994084839203675 ms, compensation: 1 ms.
+     [java] Dec 15, 2016 3:58:50 AM com.sun.faban.driver.engine.MasterImpl executeRun
+     [java] INFO: Ramp up completed
+     [java] Logging in: tbFxEadoWg
+     [java] Logging in: mRxiHTwsoi
+     [java] PRINT: Successfully logged in
+     [java] Logging in: xokRQowMUv
+     [java] PRINT: Successfully logged in
+     [java] Dec 15, 2016 3:59:20 AM com.sun.faban.driver.engine.MasterImpl executeRun
+     [java] INFO: Steady state completed
+     [java] PRINT: Successfully logged in
+     [java] Logging in: dOWVTzjcMq
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MasterImpl executeRun
+     [java] INFO: Ramp down completed
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MasterImpl getDriverMetrics
+     [java] INFO: Gathering ElggDriverStats ...
+     [java] ?               
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - before
+     [java] MatrixMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix:
+     [java] 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 0.0, 0.0, 0.3157894736842105, 0.5789473684210527, 0.09473684210526316, 0.0, 0.010526315789473684
+     [java] 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+     [java] 0.9, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: Obtained stable mix at matrix power 7.
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MatrixMix flatMix
+     [java] FINER: flatMix - after
+     [java] FlatMix
+     [java] operations: BrowsetoElgg, DoLogin, PostSelfWall, SendChatMessage, AddFriend, Register, Logout
+     [java] mix: 0.0103, 0.0103, 0.309, 0.5664, 0.0927, 0.001, 0.0103
+     [java] deviation :2.0
+     [java] 
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MasterImpl generateReports
+     [java] INFO: Printing Summary report ...
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MasterImpl generateReports
+     [java] INFO: Summary finished. Now printing detail ...
+     [java] Dec 15, 2016 3:59:30 AM com.sun.faban.driver.engine.MasterImpl generateReports
+     [java] INFO: Detail finished. Results written to /faban/output/1.
+
+BUILD SUCCESSFUL
+Total time: 2 minutes 49 seconds
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/summary_report.xsl"?>
+<benchResults>
+    <benchSummary name="Elgg benchmark" version="1.0">
+        <runId>1</runId>
+        <startTime>Thu Dec 15 03:58:40 UTC 2016</startTime>
+        <endTime>Thu Dec 15 03:59:30 UTC 2016</endTime>
+        <metric unit="ops/sec">22.400</metric>
+        <passed>false</passed>
+    </benchSummary>
+    <driverSummary name="ElggDriver">
+        <metric unit="ops/sec">22.400</metric>
+        <startTime>Thu Dec 15 03:58:40 UTC 2016</startTime>
+        <endTime>Thu Dec 15 03:59:30 UTC 2016</endTime>
+        <totalOps unit="operations">672</totalOps>
+        <users>115</users>
+        <rtXtps>76.3166</rtXtps>
+        <passed>false</passed>
+        <mix allowedDeviation="0.0200">
+            <operation name="BrowsetoElgg">
+                <successes>3</successes>
+                <failures>0</failures>
+                <mix>0.0089</mix>
+                <requiredMix>0.0103</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="DoLogin">
+                <successes>2</successes>
+                <failures>0</failures>
+                <mix>0.0059</mix>
+                <requiredMix>0.0103</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="PostSelfWall">
+                <successes>98</successes>
+                <failures>0</failures>
+                <mix>0.2908</mix>
+                <requiredMix>0.3090</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="SendChatMessage">
+                <successes>201</successes>
+                <failures>0</failures>
+                <mix>0.5964</mix>
+                <requiredMix>0.5664</requiredMix>
+                <passed>false</passed>
+            </operation>
+            <operation name="AddFriend">
+                <successes>31</successes>
+                <failures>0</failures>
+                <mix>0.0920</mix>
+                <requiredMix>0.0927</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="Register">
+                <successes>0</successes>
+                <failures>0</failures>
+                <mix>0.0000</mix>
+                <requiredMix>0.0010</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="Logout">
+                <successes>2</successes>
+                <failures>0</failures>
+                <mix>0.0059</mix>
+                <requiredMix>0.0103</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="UpdateActivity &amp;">
+                <successes>168</successes>
+                <failures>0</failures>
+                <mix>0.5015</mix>
+                <requiredMix>0.5000</requiredMix>
+                <passed>true</passed>
+            </operation>
+            <operation name="ReceiveChatMessage &amp;">
+                <successes>167</successes>
+                <failures>0</failures>
+                <mix>0.4985</mix>
+                <requiredMix>0.5000</requiredMix>
+                <passed>true</passed>
+            </operation>
+        </mix>
+        <responseTimes unit="seconds">
+            <operation name="BrowsetoElgg">
+                <avg>0.138</avg>
+                <max>0.181</max>
+                <sd>0.053</sd>
+                <percentile nth="95" suffix="th" limit="3.000">0.165</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="DoLogin">
+                <avg>0.532</avg>
+                <max>0.683</max>
+                <sd>0.000</sd>
+                <percentile nth="95" suffix="th" limit="3.000">0.390</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="PostSelfWall">
+                <avg>0.225</avg>
+                <max>0.659</max>
+                <sd>0.163</sd>
+                <percentile nth="95" suffix="th" limit="1.000">0.495</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="SendChatMessage">
+                <avg>0.062</avg>
+                <max>0.359</max>
+                <sd>0.072</sd>
+                <percentile nth="95" suffix="th" limit="1.000">0.210</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="AddFriend">
+                <avg>0.055</avg>
+                <max>0.162</max>
+                <sd>0.042</sd>
+                <percentile nth="95" suffix="th" limit="3.000">0.165</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="Register">
+                <avg/>
+                <max/>
+                <sd/>
+                <p90th/>
+                <passed/>
+                <p99th/>
+            </operation>
+            <operation name="Logout">
+                <avg>0.658</avg>
+                <max>1.014</max>
+                <sd>0.000</sd>
+                <percentile nth="95" suffix="th" limit="3.000">0.315</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="UpdateActivity &amp;">
+                <avg>0.368</avg>
+                <max>1.062</max>
+                <sd>0.189</sd>
+                <percentile nth="95" suffix="th" limit="1.000">0.780</percentile>
+                <passed>true</passed>
+            </operation>
+            <operation name="ReceiveChatMessage &amp;">
+                <avg>0.073</avg>
+                <max>0.413</max>
+                <sd>0.080</sd>
+                <percentile nth="95" suffix="th" limit="1.000">0.240</percentile>
+                <passed>true</passed>
+            </operation>
+        </responseTimes>
+        <delayTimes>
+            <operation name="BrowsetoElgg" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>10.115</actualAvg>
+                <min>2.147</min>
+                <max>11.013</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="DoLogin" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>10.145</actualAvg>
+                <min>2.147</min>
+                <max>10.682</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="PostSelfWall" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>9.999</actualAvg>
+                <min>2.147</min>
+                <max>10.000</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="SendChatMessage" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>9.999</actualAvg>
+                <min>2.147</min>
+                <max>10.000</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="AddFriend" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>9.999</actualAvg>
+                <min>2.147</min>
+                <max>10.000</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="Register" type="thinkTime">
+                <targetedAvg/>
+                <actualAvg/>
+                <min/>
+                <max/>
+                <passed/>
+            </operation>
+            <operation name="Logout" type="thinkTime">
+                <targetedAvg>10.000</targetedAvg>
+                <actualAvg>9.999</actualAvg>
+                <min>2.147</min>
+                <max>9.999</max>
+                <passed>true</passed>
+            </operation>
+            <operation name="UpdateActivity &amp;" type="cycleTime">
+                <targetedAvg/>
+                <actualAvg/>
+                <min/>
+                <max/>
+                <passed/>
+            </operation>
+            <operation name="ReceiveChatMessage &amp;" type="cycleTime">
+                <targetedAvg/>
+                <actualAvg/>
+                <min/>
+                <max/>
+                <passed/>
+            </operation>
+        </delayTimes>
+        <customStats name="Miscellaneous Statistics">
+            <stat>
+                <description>Number of times home page was actually attempted to be accessed.</description>
+                <result>125</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times login was actually attempted.</description>
+                <result>124</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times posting on wall was actually attempted.</description>
+                <result>321</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times update activity was actually attempted.</description>
+                <result>561</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times add friends was actually attempted.</description>
+                <result>103</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times send message was actually attempted.</description>
+                <result>636</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times receive message was actually attempted.</description>
+                <result>623</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times logout was actually attempted.</description>
+                <result>10</result>
+                <passed>true</passed>
+            </stat>
+            <stat>
+                <description>Number of times register was actually attempted.</description>
+                <result>0</result>
+                <passed>true</passed>
+            </stat>
+        </customStats>
+    </driverSummary>
+</benchResults>
