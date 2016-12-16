@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <numa.h>
 
-#define	N 			10000
+#define	N 			70000
 #define STEP_ALLOC		50
 #define STEP_ACCESS		50
 #define	STEP_DEALLOC		50
@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
 		*int_ptr = 101;	
 	}
 
-	if (depth > 0) {
+	/*if (depth > 0) {
 		pid = fork();
 		if (pid == 0) {
 			// spawn same program with reduced depth
@@ -94,15 +94,20 @@ int main(int argc, char **argv) {
                                 int_ptr = ret_addr[i];
                                 *int_ptr = 102;
         
-                                /*if (i%STEP_ACCESS == 0)
-                                        set_numa_cpu_affinity();*/
+                                if (i%STEP_ACCESS == 0)
+                                        set_numa_cpu_affinity();
 	                }
 			// parent process waits for child completion
 			while (wait(&status) != pid) 
                			;
 		}
+	}*/
+        // make separate pages in-case of COW fork()
+        for (i = 0; i < N; i++) {
+        	int_ptr = ret_addr[i];
+        	*int_ptr = 102;
 	}
-
+	
 	// unmap memory in parent process
 	for (i = 0; i < N; i++) {
                 numa_free(ret_addr[i], 4096);
