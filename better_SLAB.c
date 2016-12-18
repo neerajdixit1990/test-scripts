@@ -9,10 +9,18 @@
 #include <errno.h>
 #include <numa.h>
 
-#define	N 			70000
+#define	N 			10000
 #define STEP_ALLOC		50
 #define STEP_ACCESS		50
 #define	STEP_DEALLOC		50
+#define L2_CACHE_SIZE		256*1024
+#define CACHE_CLEAN_STEP	10
+
+void
+clear_l2_cache() {
+	char dummy[L2_CACHE_SIZE];
+	memset(dummy, 0, sizeof dummy);
+}
 
 void
 set_numa_cpu_affinity() {
@@ -59,10 +67,11 @@ int main(int argc, char **argv) {
 	snprintf(args, 10, "%d", depth-1);
 
 	numa_set_strict(1);
-	set_numa_cpu_affinity();
+	numa_run_on_node(0);
 	// mmap anonymous memory in the parent process
 	for (i = 0; i < N; i++) {
-	        ret_addr[i] = numa_alloc_onnode(4096, 0);
+	        //ret_addr[i] = numa_alloc_onnode(4096, 0);
+		ret_addr[i] = numa_alloc_local(4096);
         	if (ret_addr[i]  == NULL)
                 	printf("NUMA alloc on node 0 failed !\n");
 	
@@ -78,7 +87,7 @@ int main(int argc, char **argv) {
 		*int_ptr = 101;	
 	}
 
-	/*if (depth > 0) {
+	if (depth > 0) {
 		pid = fork();
 		if (pid == 0) {
 			// spawn same program with reduced depth
@@ -101,19 +110,17 @@ int main(int argc, char **argv) {
 			while (wait(&status) != pid) 
                			;
 		}
-	}*/
-        // make separate pages in-case of COW fork()
-        for (i = 0; i < N; i++) {
-        	int_ptr = ret_addr[i];
-        	*int_ptr = 102;
 	}
-	
+
+	numa_run_on_node(1);	
 	// unmap memory in parent process
 	for (i = 0; i < N; i++) {
                 numa_free(ret_addr[i], 4096);
 
                 /*if (i%STEP_DEALLOC== 0)
                         set_numa_cpu_affinity();*/
+		if (i%CACHE_CLEAN_STEP == 0)
+			clear_l2_cache();
 	}
 	return 0;
 }
