@@ -10,9 +10,7 @@
 #include <numa.h>
 
 #define	N 			10000
-#define STEP_ALLOC		50
-#define STEP_ACCESS		50
-#define	STEP_DEALLOC		50
+#define	NO_FORKS		2500
 #define L2_CACHE_SIZE		256*1024
 #define CACHE_CLEAN_STEP	10
 
@@ -22,38 +20,11 @@ clear_l2_cache() {
 	memset(dummy, 0, sizeof dummy);
 }
 
-void
-set_numa_cpu_affinity() {
-        int             i = 0, j = 0;
-        int             status;
-	struct bitmask	*a = NULL;
-
-	/*// schedule process on NUMA node 1 
-        a = numa_allocate_cpumask();
-        for (i = 6; i < 12; i++)
-                 a = numa_bitmask_setbit(a, i);
-
-        //for (i = 0; i < 12; i++) {
-        //        printf("\tNUMA set affinity for CPU %d: %d\n", i, numa_bitmask_isbitset(a, i));
-        //}
-
-        i = numa_sched_setaffinity(0, a);
-        if (i != 0)
-                printf("sched set affinity error : %s\n", strerror(errno));
-        numa_bitmask_free(a);*/
-
-	numa_run_on_node(1);
-
-        // yield to access memory from different CPU
-        /*status = sched_yield();
-        if (status != 0)
-                printf("\nUnable to yield CPU : %s\n", strerror(errno));*/
-}
-
 int main(int argc, char **argv) {
+	int		count = 0;
         int     	depth = 0;
 	int		status = -1;
-        int     	i = 0;
+        int     	i = 0, id = 0;
         void    	*ret_addr[N];
         int     	*int_ptr = NULL;
         pid_t   	pid = 0;
@@ -63,69 +34,74 @@ int main(int argc, char **argv) {
 		printf("Usage: <prog> <num of forks>\n");
 		exit(1);
 	}
-        depth = atoi(argv[1]);
-	snprintf(args, 10, "%d", depth-1);
 
+	depth = atoi(argv[1]);
 	numa_set_strict(1);
-	if (depth%2 == 0)
-		numa_run_on_node(0);
-	else
-		numa_run_on_node(1);
-	// mmap anonymous memory in the parent process
-	for (i = 0; i < N; i++) {
-	        //ret_addr[i] = numa_alloc_onnode(4096, 0);
-		ret_addr[i] = numa_alloc_local(4096);
-        	if (ret_addr[i]  == NULL)
-                	printf("NUMA alloc on node 0 failed !\n");
-	
-		/*ret_addr[i] = mmap(0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
 
-                if (i%STEP_ALLOC == 0)
-                        set_numa_cpu_affinity();*/
-	}
+        if (depth%2 == 0)
+        	numa_run_on_node(0);
+        else
+        	numa_run_on_node(1);
 
-	// access that memory to fill up the page tables
-	for (i = 0; i < N; i++) {
-		int_ptr = ret_addr[i];
-		*int_ptr = 101;	
-	}
+        for (i = 0; i < N; i++) {
+        	ret_addr[i] = numa_alloc_local(4096);
+        	if (ret_addr[i]  == NULL) {
+        		printf("NUMA alloc on node 0 failed !\n");
+			exit(1);
+		}
 
-	if (depth > 0) {
-		pid = fork();
-		if (pid == 0) {
-			// spawn same program with reduced depth
-			execlp("./better_SLAB", "./better_SLAB", args, (char *)0);
-			printf("\nShould not return !!\n");
-			return 0;
-		} else if (pid < 0) {
-			printf("\nError in fork() system call : %s\n", strerror(errno));
-		} else {
+        	// access memory to fill up page tables
+        	int_ptr = ret_addr[i];
+        	*int_ptr = 101;
+        }
 
-                        // make separate pages in-case of COW fork()
-                        for (i = 0; i < N; i++) {
-                                int_ptr = ret_addr[i];
-                                *int_ptr = 102;
-        
-                                if (i%STEP_ACCESS == 0)
-                                        set_numa_cpu_affinity();
-	                }
-			// parent process waits for child completion
-			while (wait(&status) != pid) 
-               			;
+	if (depth == NO_FORKS) {
+		for (id = 0; id < NO_FORKS; id++) {
+
+			pid = fork();
+			if (pid < 0) {
+				printf("\nError in fork() system call : %s\n", strerror(errno));
+			} else if (pid == 0) {
+				snprintf(args, 10, "%d", id);
+                        	execlp("./better_SLAB", "./better_SLAB", args, (char *)0);
+                        	printf("\nShould not return !\n");
+                        	return 0;
+			} else {
+                        	// make separate pages in-case of COW fork()
+                        	for (i = 0; i < N; i++) {
+                                	int_ptr = ret_addr[i];
+                                	*int_ptr = 102;
+                        	}
+			}
 		}
 	}
 
+	if (depth == NO_FORKS) {
+		// parent process waits for child completion
+		count = 0;
+		while (1) {
+			status = waitpid(-1, NULL, 0);
+			if (errno == EINTR)
+				continue;
+			if (status > 0) {
+				count++;
+				//printf("Count = %d\n", count);
+				continue;
+			}
+			//printf("returned =%d\n", status);
+			break;
+		}
+	}
+	
         if (depth%2 == 0)
                 numa_run_on_node(1);
         else
                 numa_run_on_node(0);
 
-	// unmap memory in parent process
+	// unmap memory in process
 	for (i = 0; i < N; i++) {
                 numa_free(ret_addr[i], 4096);
 
-                /*if (i%STEP_DEALLOC== 0)
-                        set_numa_cpu_affinity();*/
 		if (i%CACHE_CLEAN_STEP == 0)
 			clear_l2_cache();
 	}
