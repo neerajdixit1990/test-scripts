@@ -10,7 +10,7 @@
 #include <numa.h>
 
 #define	N 			10000
-#define	NO_FORKS		2500
+#define	NO_FORKS		1500
 #define L2_CACHE_SIZE		256*1024
 #define CACHE_CLEAN_STEP	10
 

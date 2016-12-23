@@ -1,6 +1,6 @@
 for run in {1..55}
 do
-  # 390 is the magic number where the si & so are 0 for complete duration of benchmark
+  # number of forks should be where the si & so are 0 for complete duration of benchmark
   time ./better_SLAB 1500
   #docker rm -v $(docker ps -a -q -f status=exited)
   #docker run --rm --volumes-from data cloudsuite/in-memory-analytics /data/ml-latest-small /data/myratings.csv
@@ -8,6 +8,7 @@ do
   #docker run --rm --volumes-from data cloudsuite/graph-analytics --driver-memory 16g --executor-memory 16g
   if [ $run -eq 5 ]
   then
+    #this message marks the end of warm up before actual readings are recorded
     echo "LAST RUN, TURN ON SCRIPT ..."
   fi
 done

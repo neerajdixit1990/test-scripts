@@ -14,9 +14,7 @@ cmd = ["docker", "run", "--rm", "--volumes-from", "data", "cloudsuite/graph-anal
 #cmd = ["docker", "run", "--rm", "--volumes-from", "data", "cloudsuite/graph-analytics"]
 n = int(sys.argv[1])
 f = open(sys.argv[2], 'w')
-#print cmd
-#print n
-#print sys.argv[3]
+
 for i in range(n):
 	os.system("docker rm -v $(docker ps -a -q -f status=exited)")
 
@@ -28,7 +26,8 @@ for i in range(n):
     		f.write('Calledprocerr : %s' %(str(e)))
 
 	'''
-        output_list = op.split('\n')
+        #uncomment to log only a subset of console output
+	output_list = op.split('\n')
         l = len(output_list)
         if l <= 20:
                 start = 0
